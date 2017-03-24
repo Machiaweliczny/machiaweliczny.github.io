@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://machiaweliczny.github.io/post/3blue1brown_math_videos/</loc>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://machiaweliczny.github.io/post/action_cable_5.0.0.1_bug/</loc>
     <lastmod>2017-03-24T20:48:41+01:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/categories/</loc>
-    <lastmod>2017-03-24T20:48:41+01:00</lastmod>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,13 +46,19 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/</loc>
-    <lastmod>2017-03-24T20:48:41+01:00</lastmod>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/tags/math/</loc>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://machiaweliczny.github.io/post/</loc>
-    <lastmod>2017-03-24T20:48:41+01:00</lastmod>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,6 +94,12 @@
   <url>
     <loc>http://machiaweliczny.github.io/tags/ui/</loc>
     <lastmod>2017-03-24T19:11:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/tags/youtube/</loc>
+    <lastmod>2017-03-24T21:26:54+01:00</lastmod>
     <priority>0</priority>
   </url>
   

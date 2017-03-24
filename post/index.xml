@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Machiaweliczny dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 20:48:41 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 21:26:54 +0100</lastBuildDate>
     <atom:link href="http://machiaweliczny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>3blue1brown math videos</title>
+      <link>http://machiaweliczny.github.io/post/3blue1brown_math_videos/</link>
+      <pubDate>Fri, 24 Mar 2017 21:26:54 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/3blue1brown_math_videos/</guid>
+      <description>&lt;p&gt;I stumbled recently on quite nice math visualization videos by &lt;a href=&#34;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34;&gt;3blue1brown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;He&amp;rsquo;s most pupular because of &amp;ldquo;essence of linear algebra&amp;rdquo; playlist but I enjoyed riddles the most.
+I agree with him that in education lack of visualization can make concepts too abstract and hard to digest, so I would like to spread the word about great channel.&lt;/p&gt;
+
+&lt;p&gt;And if we are talking about linear algebra:&lt;/p&gt;
+
+&lt;p&gt;Another quite good course on linear algebra in on Khan Academy (it might be a little too slow paced but it&amp;rsquo;s good).&lt;/p&gt;
+
+&lt;p&gt;I found it by &lt;a href=&#34;https://news.ycombinator.com/item?id=13904881&#34;&gt;reading&lt;/a&gt; about this book on linear algebra &lt;a href=&#34;http://immersivemath.com/ila/index.html&#34;&gt;http://immersivemath.com/ila/index.html&lt;/a&gt; which you also might find interesting(It&amp;rsquo;s a little sluggish on my pc though).&lt;/p&gt;
+
+&lt;p&gt;Best way to get familiar with linear algebra is to do some graphics programming. I can recommend 3d graphics course on &lt;a href=&#34;https://www.udacity.com/course/interactive-3d-graphics--cs291&#34;&gt;Udacity by AutoDesk&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>action_cable_5.0.0.1_bug</title>
