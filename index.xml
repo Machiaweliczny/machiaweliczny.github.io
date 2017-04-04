@@ -6,8 +6,18 @@
     <description>Recent content on Machiaweliczny dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 21:26:54 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Apr 2017 09:38:40 +0200</lastBuildDate>
     <atom:link href="http://machiaweliczny.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>babel plugin tcomb</title>
+      <link>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</link>
+      <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</guid>
+      <description>&lt;p&gt;Recently I&amp;rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&amp;rsquo;s called &lt;a href=&#34;https://github.com/gcanti/babel-plugin-tcomb&#34;&gt;https://github.com/gcanti/babel-plugin-tcomb&lt;/a&gt; It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>3blue1brown math videos</title>
@@ -27,24 +37,6 @@ I agree with him that in education lack of visualization can make concepts too a
 &lt;p&gt;I found it by &lt;a href=&#34;https://news.ycombinator.com/item?id=13904881&#34;&gt;reading&lt;/a&gt; about this book on linear algebra &lt;a href=&#34;http://immersivemath.com/ila/index.html&#34;&gt;http://immersivemath.com/ila/index.html&lt;/a&gt; which you also might find interesting(It&amp;rsquo;s a little sluggish on my pc though).&lt;/p&gt;
 
 &lt;p&gt;Best way to get familiar with linear algebra is to do some graphics programming. I can recommend 3d graphics course on &lt;a href=&#34;https://www.udacity.com/course/interactive-3d-graphics--cs291&#34;&gt;Udacity by AutoDesk&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>action_cable_5.0.0.1_bug</title>
-      <link>http://machiaweliczny.github.io/post/action_cable_5.0.0.1_bug/</link>
-      <pubDate>Fri, 24 Mar 2017 20:48:41 +0100</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/action_cable_5.0.0.1_bug/</guid>
-      <description>&lt;p&gt;There is quite nasty bug in ActionCable 5.0.0.1 which I had to deal with recently:&lt;/p&gt;
-
-&lt;p&gt;As we can read in &lt;a href=&#34;https://github.com/rails/rails/blob/5-1-stable/actioncable/CHANGELOG.md&#34;&gt;changelog for 5.1.0&lt;/a&gt; there was a bug:&lt;/p&gt;
-
-&lt;p&gt;Protect against concurrent writes to a WebSocket connection from multiple threads; the underlying OS write is not always threadsafe.&lt;/p&gt;
-
-&lt;p&gt;Tracking this was hard because my application simply didn&amp;rsquo;t receive some messages when sidekiq jobs were trying to send messages simultanously. Message not delivered and no error raised =&amp;gt; fun debugging experience :)&lt;/p&gt;
-
-&lt;p&gt;Leaving this as short notice in case some of you are wondering why you might be losing messages with ActionCable 5.0.0.1.&lt;/p&gt;
 </description>
     </item>
     
