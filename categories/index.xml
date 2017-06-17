@@ -9,6 +9,18 @@
     <atom:link href="http://machiaweliczny.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>react-komposer</title>
+      <link>http://machiaweliczny.github.io/post/react-komposer-post/</link>
+      <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/react-komposer-post/</guid>
+      <description>&lt;p&gt;Recently I found quite nice HoC abstracting async data delivery for component.
+It&amp;rsquo;s called &lt;a href=&#34;https://github.com/arunoda/react-komposer&#34;&gt;https://github.com/arunoda/react-komposer&lt;/a&gt; and I recommend you check it out as it provides clean API for defining
+async depencencies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>babel plugin tcomb</title>
       <link>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</link>
       <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
