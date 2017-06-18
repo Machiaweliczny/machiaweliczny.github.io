@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.18.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>babel plugin tcomb | Machiaweliczny dev</title>
+    <title>Small git tips | Machiaweliczny dev</title>
     
     
     
@@ -15,13 +15,15 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="babel plugin tcomb" />
-<meta property="og:description" content="Recently I&rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries." />
+    <meta property="og:title" content="Small git tips" />
+<meta property="og:description" content="The cool think I didn&rsquo;t knew is that when you type git checkout - it returns to previous branch.
+The same applies to shell cd - returns to previous catalog, so you don&rsquo;t have to use pushd path &amp;&amp; popd Also the default for cd is cd ~ [embarased].
+And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&rsquo;s &ldquo;fuzzy finder&rdquo; for cd" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://machiaweliczny.github.io/post/babel-plugin-tcomb/" />
+<meta property="og:url" content="http://machiaweliczny.github.io/post/git-tip/" />
 
 
-<meta property="og:updated_time" content="2017-04-04T09:38:40&#43;02:00"/>
+<meta property="og:updated_time" content="2017-06-18T15:42:58&#43;02:00"/>
 
 
 
@@ -41,7 +43,7 @@
 
     
     
-    <link rel="canonical" href="http://machiaweliczny.github.io/post/babel-plugin-tcomb/">
+    <link rel="canonical" href="http://machiaweliczny.github.io/post/git-tip/">
     
     
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAG+ZJREFU
@@ -259,19 +261,21 @@ ga('send', 'pageview');
     <main>
   <article itemscope itemtype="http://schema.org/BlogPosting">
     
-<meta itemprop="name" content="babel plugin tcomb">
-<meta itemprop="description" content="Recently I&rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.">
+<meta itemprop="name" content="Small git tips">
+<meta itemprop="description" content="The cool think I didn&rsquo;t knew is that when you type git checkout - it returns to previous branch.
+The same applies to shell cd - returns to previous catalog, so you don&rsquo;t have to use pushd path &amp;&amp; popd Also the default for cd is cd ~ [embarased].
+And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&rsquo;s &ldquo;fuzzy finder&rdquo; for cd">
 
 
-<meta itemprop="dateModified" content="2017-04-04T09:38:40&#43;02:00" />
-<meta itemprop="wordCount" content="35">
+<meta itemprop="dateModified" content="2017-06-18T15:42:58&#43;02:00" />
+<meta itemprop="wordCount" content="167">
 
 
 
 <meta itemprop="keywords" content=",,git,javascript,math,npm,react,reducers,redux,shell,tests,ui,youtube," />
 
     <header>
-      <h1 itemprop="headline">babel plugin tcomb</h1>
+      <h1 itemprop="headline">Small git tips</h1>
       <p class="muted"><svg style="margin-bottom:-3px" id="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
@@ -281,7 +285,7 @@ ga('send', 'pageview');
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2017-04-04T09:38:40&#43;02:00">4 Apr, 2017</time>
+  Published: <time datetime="2017-06-18T15:42:58&#43;02:00">18 Jun, 2017</time>
 
 </p>
     </header>
@@ -289,7 +293,29 @@ ga('send', 'pageview');
     
 
     <div itemprop="articleBody">
-      <p>Recently I&rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&rsquo;s called <a href="https://github.com/gcanti/babel-plugin-tcomb">https://github.com/gcanti/babel-plugin-tcomb</a> It&rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.</p>
+      <p>The cool think I didn&rsquo;t knew is that when you type <code>git checkout -</code> it returns to previous branch.</p>
+
+<p>The same applies to shell <code>cd -</code> returns to previous catalog, so you don&rsquo;t have to use <code>pushd path</code> &amp;&amp; <code>popd</code>
+Also the default for <code>cd</code> is <code>cd ~</code> [embarased].</p>
+
+<p>And when we are talking about <code>cd</code> - I recommend this great utility tool - <a href="https://github.com/rupa/z">https://github.com/rupa/z</a> - it&rsquo;s &ldquo;fuzzy finder&rdquo; for <code>cd</code></p>
+
+<p>Ok one more useful thing related to git. I have tons of branches as never clean them up too early
+to have some backup/compare and then after release it&rsquo;s good to clean up. I like to do do this using <code>xargs</code>:</p>
+
+<pre><code>git branch &gt; branches_to_delete.txt
+vim branches_to_delete.txt
+delete[dd] branches you actually need
+cat branches_to_delete.txt | xargs git branch -d
+</code></pre>
+
+<p>Another cool tools I found recently related to git are:</p>
+
+<ul>
+<li><a href="https://github.com/kamranahmedse/git-standup">https://github.com/kamranahmedse/git-standup</a> - check what your teammates have been doing recently</li>
+<li><a href="https://github.com/erikbern/git-of-theseus">https://github.com/erikbern/git-of-theseus</a> - analyse how repo grows over time</li>
+<li><a href="https://github.com/tomgi/git_stats">https://github.com/tomgi/git_stats</a> - stats about who wrote how much code</li>
+</ul>
 
     </div>
     
@@ -302,34 +328,20 @@ ga('send', 'pageview');
       by <span itemprop="author"></span>
     
   
-  <time datetime="2017-04-04T09:38:40&#43;02:00">
-    4 Apr, 2017
+  <time datetime="2017-06-18T15:42:58&#43;02:00">
+    18 Jun, 2017
   </time>
   
     in <span itemprop="articleSection"><a href="/categories//"></a></span>
   
   
-    and tagged <a href="/tags//"></a> and <a href="/tags//"></a>
+    and tagged <a href="/tags/git/">git</a> and <a href="/tags/shell/">shell</a>
   
-  using <span itemprop="wordCount">35</span> words.
+  using <span itemprop="wordCount">167</span> words.
 </p>
 
       
-  
 
-
-
-  <aside>
-    <header>Related Content</header>
-    <ul>
-      
-      
-        <li><a href="/post/npm-trends/">npm trends</a> &ndash; 1 minutes
-      
-        <li><a href="/post/react-komposer-post/">react-komposer</a> &ndash; 1 minutes
-      
-    </ul>
-  </aside>
 
 
     </footer>
