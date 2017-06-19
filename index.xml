@@ -6,8 +6,88 @@
     <description>Recent content on Machiaweliczny dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 15:42:58 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jun 2017 17:19:04 +0200</lastBuildDate>
     <atom:link href="http://machiaweliczny.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>redux batched subscribe</title>
+      <link>http://machiaweliczny.github.io/post/redux-batched-subscribe/</link>
+      <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
+      <description>&lt;p&gt;When you have too many dispatches when usign &lt;code&gt;redux&lt;/code&gt; performance of rendering might slow down.
+There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.com/tappleby/redux-batched-subscribe&#34;&gt;https://github.com/tappleby/redux-batched-subscribe&lt;/a&gt; that allows to easy debounce notify to improve perf.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ruby reality</title>
+      <link>http://machiaweliczny.github.io/post/ruby-reality/</link>
+      <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/ruby-reality/</guid>
+      <description>&lt;p&gt;Today collegue pointed me to cool gem which helps retrieve information from wikipedia: &lt;a href=&#34;https://github.com/molybdenum-99/reality&#34;&gt;https://github.com/molybdenum-99/reality&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is quite neat and may be usefull for some scripting task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ruby contracts</title>
+      <link>http://machiaweliczny.github.io/post/ruby-contracts/</link>
+      <pubDate>Mon, 19 Jun 2017 11:45:07 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/ruby-contracts/</guid>
+      <description>&lt;p&gt;Recently I tested &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby&#34;&gt;https://github.com/egonSchiele/contracts.ruby&lt;/a&gt; types assertions for ruby as I prefer executable documentation and it&amp;rsquo;s quite expressive and works correctly.&lt;/p&gt;
+
+&lt;p&gt;The only problem I have is that for complex hashes error is unreadable so I&amp;rsquo;ve created issue with &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby/issues/261&#34;&gt;enhancement proposal&lt;/a&gt; how to fix it.
+Unfortunatelly project is not maintained anymore, so I will have to write this patch alone probably :)&lt;/p&gt;
+
+&lt;p&gt;Anyway I recommend it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>typescript vs flow</title>
+      <link>http://machiaweliczny.github.io/post/typescript-vs-flow/</link>
+      <pubDate>Sun, 18 Jun 2017 16:15:40 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/typescript-vs-flow/</guid>
+      <description>&lt;p&gt;Recently I&amp;rsquo;m evaluating both these type systems for javascript and this blog post is to summarize my findings so far.&lt;/p&gt;
+
+&lt;p&gt;What I like about flow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Having sound type system is their design goal&lt;/li&gt;
+&lt;li&gt;You can use it with &lt;a href=&#34;https://github.com/gcanti/babel-plugin-tcomb&#34;&gt;https://github.com/gcanti/babel-plugin-tcomb&lt;/a&gt;
+to get runtime assertions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What I don&amp;rsquo;t like about flow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebook/flow/issues/465&#34;&gt;You can&amp;rsquo;t have nominal typing for IDs in easy way&lt;/a&gt; - This could save from some bugs&lt;/li&gt;
+&lt;li&gt;Flow doesn&amp;rsquo;t evaluate imported functions defined in other files by default - this is minor for me&lt;/li&gt;
+&lt;li&gt;Weird errors when you do mistake - I don&amp;rsquo;t do mistakes ;) so it&amp;rsquo;s not so big problem for me&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ve read it&amp;rsquo;s hard to check where type coverage is missing to achieve 100% static coverage - this is big&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What I like about TypeScript:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Better tooling&lt;/li&gt;
+&lt;li&gt;Ability to express nominal typing for numbers and string&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What I don&amp;rsquo;t like about TypeScript:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Doesn&amp;rsquo;t even try to have sound type system.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t have ability to turn on runtime assertion - but it supossedly works cross files better, so maybe it&amp;rsquo;s not necessary. There are libs which allow to check input based on types though, but you have to manually invoke it(usefull for IO).&lt;/li&gt;
+&lt;li&gt;More to come after I test it better&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Small git tips</title>

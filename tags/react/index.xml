@@ -9,6 +9,17 @@
     <atom:link href="http://machiaweliczny.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>redux batched subscribe</title>
+      <link>http://machiaweliczny.github.io/post/redux-batched-subscribe/</link>
+      <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
+      <description>&lt;p&gt;When you have too many dispatches when usign &lt;code&gt;redux&lt;/code&gt; performance of rendering might slow down.
+There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.com/tappleby/redux-batched-subscribe&#34;&gt;https://github.com/tappleby/redux-batched-subscribe&lt;/a&gt; that allows to easy debounce notify to improve perf.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>react-komposer</title>
       <link>http://machiaweliczny.github.io/post/react-komposer-post/</link>
       <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>

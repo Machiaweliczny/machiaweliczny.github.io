@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Types on Machiaweliczny dev</title>
+    <link>http://machiaweliczny.github.io/tags/types/index.xml</link>
+    <description>Recent content in Types on Machiaweliczny dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://machiaweliczny.github.io/tags/types/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ruby contracts</title>
+      <link>http://machiaweliczny.github.io/post/ruby-contracts/</link>
+      <pubDate>Mon, 19 Jun 2017 11:45:07 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/ruby-contracts/</guid>
+      <description>&lt;p&gt;Recently I tested &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby&#34;&gt;https://github.com/egonSchiele/contracts.ruby&lt;/a&gt; types assertions for ruby as I prefer executable documentation and it&amp;rsquo;s quite expressive and works correctly.&lt;/p&gt;
+
+&lt;p&gt;The only problem I have is that for complex hashes error is unreadable so I&amp;rsquo;ve created issue with &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby/issues/261&#34;&gt;enhancement proposal&lt;/a&gt; how to fix it.
+Unfortunatelly project is not maintained anymore, so I will have to write this patch alone probably :)&lt;/p&gt;
+
+&lt;p&gt;Anyway I recommend it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
