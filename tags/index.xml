@@ -9,6 +9,18 @@
     <atom:link href="http://machiaweliczny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>typescript runtime typechecking</title>
+      <link>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</link>
+      <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve found equivalent of &lt;code&gt;babel-plugin-tcomb&lt;/code&gt; for TypeScript - &lt;a href=&#34;https://github.com/fabiandev/ts-runtime&#34;&gt;https://github.com/fabiandev/ts-runtime&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve found it in this thread - &lt;a href=&#34;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&#34;&gt;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>npm trends</title>
       <link>http://machiaweliczny.github.io/post/npm-trends/</link>
       <pubDate>Sat, 17 Jun 2017 14:22:42 +0200</pubDate>

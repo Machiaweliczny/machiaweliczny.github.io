@@ -9,6 +9,18 @@
     <atom:link href="http://machiaweliczny.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>typescript runtime typechecking</title>
+      <link>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</link>
+      <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve found equivalent of &lt;code&gt;babel-plugin-tcomb&lt;/code&gt; for TypeScript - &lt;a href=&#34;https://github.com/fabiandev/ts-runtime&#34;&gt;https://github.com/fabiandev/ts-runtime&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve found it in this thread - &lt;a href=&#34;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&#34;&gt;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ruby contracts</title>
       <link>http://machiaweliczny.github.io/post/ruby-contracts/</link>
       <pubDate>Mon, 19 Jun 2017 11:45:07 +0200</pubDate>
@@ -20,48 +32,6 @@
 Unfortunatelly project is not maintained anymore, so I will have to write this patch alone probably :)&lt;/p&gt;
 
 &lt;p&gt;Anyway I recommend it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>typescript vs flow</title>
-      <link>http://machiaweliczny.github.io/post/typescript-vs-flow/</link>
-      <pubDate>Sun, 18 Jun 2017 16:15:40 +0200</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/typescript-vs-flow/</guid>
-      <description>&lt;p&gt;Recently I&amp;rsquo;m evaluating both these type systems for javascript and this blog post is to summarize my findings so far.&lt;/p&gt;
-
-&lt;p&gt;What I like about flow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Having sound type system is their design goal&lt;/li&gt;
-&lt;li&gt;You can use it with &lt;a href=&#34;https://github.com/gcanti/babel-plugin-tcomb&#34;&gt;https://github.com/gcanti/babel-plugin-tcomb&lt;/a&gt;
-to get runtime assertions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What I don&amp;rsquo;t like about flow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/facebook/flow/issues/465&#34;&gt;You can&amp;rsquo;t have nominal typing for IDs in easy way&lt;/a&gt; - This could save from some bugs&lt;/li&gt;
-&lt;li&gt;Flow doesn&amp;rsquo;t evaluate imported functions defined in other files by default - this is minor for me&lt;/li&gt;
-&lt;li&gt;Weird errors when you do mistake - I don&amp;rsquo;t do mistakes ;) so it&amp;rsquo;s not so big problem for me&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;ve read it&amp;rsquo;s hard to check where type coverage is missing to achieve 100% static coverage - this is big&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What I like about TypeScript:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Better tooling&lt;/li&gt;
-&lt;li&gt;Ability to express nominal typing for numbers and string&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What I don&amp;rsquo;t like about TypeScript:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Doesn&amp;rsquo;t even try to have sound type system.&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t have ability to turn on runtime assertion - but it supossedly works cross files better, so maybe it&amp;rsquo;s not necessary. There are libs which allow to check input based on types though, but you have to manually invoke it(usefull for IO).&lt;/li&gt;
-&lt;li&gt;More to come after I test it better&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.18.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>react-komposer | Machiaweliczny dev</title>
+    <title>typescript runtime typechecking | Machiaweliczny dev</title>
     
     
     
@@ -15,13 +15,14 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="react-komposer" />
-<meta property="og:description" content="Recently I found quite nice HoC abstracting async data delivery for component. It&rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies." />
+    <meta property="og:title" content="typescript runtime typechecking" />
+<meta property="og:description" content="I&rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
+I&rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://machiaweliczny.github.io/post/react-komposer-post/" />
+<meta property="og:url" content="http://machiaweliczny.github.io/post/typescript-runtime-typechecking/" />
 
 
-<meta property="og:updated_time" content="2017-06-17T14:18:46&#43;02:00"/>
+<meta property="og:updated_time" content="2017-06-19T11:46:16&#43;02:00"/>
 
 
 
@@ -41,7 +42,7 @@
 
     
     
-    <link rel="canonical" href="http://machiaweliczny.github.io/post/react-komposer-post/">
+    <link rel="canonical" href="http://machiaweliczny.github.io/post/typescript-runtime-typechecking/">
     
     
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAG+ZJREFU
@@ -259,19 +260,20 @@ ga('send', 'pageview');
     <main>
   <article itemscope itemtype="http://schema.org/BlogPosting">
     
-<meta itemprop="name" content="react-komposer">
-<meta itemprop="description" content="Recently I found quite nice HoC abstracting async data delivery for component. It&rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.">
+<meta itemprop="name" content="typescript runtime typechecking">
+<meta itemprop="description" content="I&rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
+I&rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559">
 
 
-<meta itemprop="dateModified" content="2017-06-17T14:18:46&#43;02:00" />
-<meta itemprop="wordCount" content="31">
+<meta itemprop="dateModified" content="2017-06-19T11:46:16&#43;02:00" />
+<meta itemprop="wordCount" content="17">
 
 
 
 <meta itemprop="keywords" content=",misc,performance,scripting,,git,javascript,math,npm,react,readux,reducers,redux,ruby,shell,tests,types,typescript,ui,wiki,youtube," />
 
     <header>
-      <h1 itemprop="headline">react-komposer</h1>
+      <h1 itemprop="headline">typescript runtime typechecking</h1>
       <p class="muted"><svg style="margin-bottom:-3px" id="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
@@ -281,7 +283,7 @@ ga('send', 'pageview');
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2017-06-17T14:18:46&#43;02:00">17 Jun, 2017</time>
+  Published: <time datetime="2017-06-19T11:46:16&#43;02:00">19 Jun, 2017</time>
 
 </p>
     </header>
@@ -289,9 +291,9 @@ ga('send', 'pageview');
     
 
     <div itemprop="articleBody">
-      <p>Recently I found quite nice HoC abstracting async data delivery for component.
-It&rsquo;s called <a href="https://github.com/arunoda/react-komposer">https://github.com/arunoda/react-komposer</a> and I recommend you check it out as it provides clean API for defining
-async depencencies.</p>
+      <p>I&rsquo;ve found equivalent of <code>babel-plugin-tcomb</code> for TypeScript - <a href="https://github.com/fabiandev/ts-runtime">https://github.com/fabiandev/ts-runtime</a></p>
+
+<p>I&rsquo;ve found it in this thread - <a href="https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559">https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559</a></p>
 
     </div>
     
@@ -304,16 +306,16 @@ async depencencies.</p>
       by <span itemprop="author"></span>
     
   
-  <time datetime="2017-06-17T14:18:46&#43;02:00">
-    17 Jun, 2017
+  <time datetime="2017-06-19T11:46:16&#43;02:00">
+    19 Jun, 2017
   </time>
   
     in <span itemprop="articleSection"><a href="/categories//"></a></span>
   
   
-    and tagged <a href="/tags//"></a> and <a href="/tags/react/">react</a>
+    and tagged <a href="/tags//"></a> and <a href="/tags/typescript/">typescript</a>
   
-  using <span itemprop="wordCount">31</span> words.
+  using <span itemprop="wordCount">17</span> words.
 </p>
 
       
@@ -326,11 +328,9 @@ async depencencies.</p>
     <ul>
       
       
-        <li><a href="/post/redux-batched-subscribe/">redux batched subscribe</a> &ndash; 1 minutes
-      
-        <li><a href="/post/typescript-runtime-typechecking/">typescript runtime typechecking</a> &ndash; 1 minutes
-      
         <li><a href="/post/npm-trends/">npm trends</a> &ndash; 1 minutes
+      
+        <li><a href="/post/react-komposer-post/">react-komposer</a> &ndash; 1 minutes
       
         <li><a href="/post/babel-plugin-tcomb/">babel plugin tcomb</a> &ndash; 1 minutes
       
