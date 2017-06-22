@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.18.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>react-komposer | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <title>rendering resource in react | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
     
     
     
@@ -15,13 +15,14 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="react-komposer" />
-<meta property="og:description" content="Recently I found quite nice HoC abstracting async data delivery for component. It&rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies." />
+    <meta property="og:title" content="rendering resource in react" />
+<meta property="og:description" content="In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&rsquo;s working great:
+type ResourceDisplay = {| whenError: Element&lt;*&gt;, whenLoading: Element&lt;*&gt;, whenReady: Element&lt;*&gt;, whenEmpty: Element&lt;*&gt;, isLoading: boolean, isError: boolean, resource: Array&lt;*&gt;, |}`  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://machiaweliczny.github.io/post/react-komposer-post/" />
+<meta property="og:url" content="http://machiaweliczny.github.io/post/rendering-resource-in-react/" />
 
 
-<meta property="og:updated_time" content="2017-06-17T14:18:46&#43;02:00"/>
+<meta property="og:updated_time" content="2017-06-22T21:21:28&#43;02:00"/>
 
 
 
@@ -41,7 +42,7 @@
 
     
     
-    <link rel="canonical" href="http://machiaweliczny.github.io/post/react-komposer-post/">
+    <link rel="canonical" href="http://machiaweliczny.github.io/post/rendering-resource-in-react/">
     
     
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAG+ZJREFU
@@ -259,19 +260,20 @@ ga('send', 'pageview');
     <main>
   <article itemscope itemtype="http://schema.org/BlogPosting">
     
-<meta itemprop="name" content="react-komposer">
-<meta itemprop="description" content="Recently I found quite nice HoC abstracting async data delivery for component. It&rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.">
+<meta itemprop="name" content="rendering resource in react">
+<meta itemprop="description" content="In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&rsquo;s working great:
+type ResourceDisplay = {| whenError: Element&lt;*&gt;, whenLoading: Element&lt;*&gt;, whenReady: Element&lt;*&gt;, whenEmpty: Element&lt;*&gt;, isLoading: boolean, isError: boolean, resource: Array&lt;*&gt;, |}`  ">
 
 
-<meta itemprop="dateModified" content="2017-06-17T14:18:46&#43;02:00" />
-<meta itemprop="wordCount" content="31">
+<meta itemprop="dateModified" content="2017-06-22T21:21:28&#43;02:00" />
+<meta itemprop="wordCount" content="48">
 
 
 
 <meta itemprop="keywords" content=",misc,performance,scripting,,git,javascript,math,npm,react,readux,reducers,redux,ruby,shell,tests,types,typescript,ui,wiki,youtube," />
 
     <header>
-      <h1 itemprop="headline">react-komposer</h1>
+      <h1 itemprop="headline">rendering resource in react</h1>
       <p class="muted"><svg style="margin-bottom:-3px" id="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
@@ -281,7 +283,7 @@ ga('send', 'pageview');
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2017-06-17T14:18:46&#43;02:00">17 Jun, 2017</time>
+  Published: <time datetime="2017-06-22T21:21:28&#43;02:00">22 Jun, 2017</time>
 
 </p>
     </header>
@@ -289,9 +291,19 @@ ga('send', 'pageview');
     
 
     <div itemprop="articleBody">
-      <p>Recently I found quite nice HoC abstracting async data delivery for component.
-It&rsquo;s called <a href="https://github.com/arunoda/react-komposer">https://github.com/arunoda/react-komposer</a> and I recommend you check it out as it provides clean API for defining
-async depencencies.</p>
+      <p>In order to not forget about rendering all states of resource provisioning and handle errors gracefully
+I introduced react HoC(higher order component) with such props and it&rsquo;s working great:</p>
+
+<pre><code>type ResourceDisplay = {|
+  whenError: Element&lt;*&gt;,
+  whenLoading: Element&lt;*&gt;,
+  whenReady: Element&lt;*&gt;,
+  whenEmpty: Element&lt;*&gt;,
+  isLoading: boolean,
+  isError: boolean,
+  resource: Array&lt;*&gt;,
+|}`
+</code></pre>
 
     </div>
     
@@ -304,8 +316,8 @@ async depencencies.</p>
       by <span itemprop="author"></span>
     
   
-  <time datetime="2017-06-17T14:18:46&#43;02:00">
-    17 Jun, 2017
+  <time datetime="2017-06-22T21:21:28&#43;02:00">
+    22 Jun, 2017
   </time>
   
     in <span itemprop="articleSection"><a href="/categories//"></a></span>
@@ -313,7 +325,7 @@ async depencencies.</p>
   
     and tagged <a href="/tags//"></a> and <a href="/tags/react/">react</a>
   
-  using <span itemprop="wordCount">31</span> words.
+  using <span itemprop="wordCount">48</span> words.
 </p>
 
       
@@ -326,13 +338,13 @@ async depencencies.</p>
     <ul>
       
       
-        <li><a href="/post/rendering-resource-in-react/">rendering resource in react</a> &ndash; 1 minutes
-      
         <li><a href="/post/redux-batched-subscribe/">redux batched subscribe</a> &ndash; 1 minutes
       
         <li><a href="/post/typescript-runtime-typechecking/">typescript runtime typechecking</a> &ndash; 1 minutes
       
         <li><a href="/post/npm-trends/">npm trends</a> &ndash; 1 minutes
+      
+        <li><a href="/post/react-komposer-post/">react-komposer</a> &ndash; 1 minutes
       
         <li><a href="/post/babel-plugin-tcomb/">babel plugin tcomb</a> &ndash; 1 minutes
       

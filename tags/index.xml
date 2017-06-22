@@ -9,6 +9,28 @@
     <atom:link href="http://machiaweliczny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>rendering resource in react</title>
+      <link>http://machiaweliczny.github.io/post/rendering-resource-in-react/</link>
+      <pubDate>Thu, 22 Jun 2017 21:21:28 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/rendering-resource-in-react/</guid>
+      <description>&lt;p&gt;In order to not forget about rendering all states of resource provisioning and handle errors gracefully
+I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;type ResourceDisplay = {|
+  whenError: Element&amp;lt;*&amp;gt;,
+  whenLoading: Element&amp;lt;*&amp;gt;,
+  whenReady: Element&amp;lt;*&amp;gt;,
+  whenEmpty: Element&amp;lt;*&amp;gt;,
+  isLoading: boolean,
+  isError: boolean,
+  resource: Array&amp;lt;*&amp;gt;,
+|}`
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>typescript runtime typechecking</title>
       <link>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</link>
       <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
