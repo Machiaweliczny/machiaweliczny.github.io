@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wiki on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/tags/wiki/index.xml</link>
+    <link>http://machiaweliczny.github.io/tags/wiki/</link>
     <description>Recent content in Wiki on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://machiaweliczny.github.io/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2017 11:56:55 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>ruby reality</title>
@@ -14,10 +17,8 @@
       <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/ruby-reality/</guid>
-      <description>&lt;p&gt;Today collegue pointed me to cool gem which helps retrieve information from wikipedia: &lt;a href=&#34;https://github.com/molybdenum-99/reality&#34;&gt;https://github.com/molybdenum-99/reality&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is quite neat and may be usefull for some scripting task.&lt;/p&gt;
-</description>
+      <description>Today collegue pointed me to cool gem which helps retrieve information from wikipedia: https://github.com/molybdenum-99/reality
+This is quite neat and may be usefull for some scripting task.</description>
     </item>
     
   </channel>

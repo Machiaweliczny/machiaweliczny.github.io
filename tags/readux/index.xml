@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Readux on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/tags/readux/index.xml</link>
+    <link>http://machiaweliczny.github.io/tags/readux/</link>
     <description>Recent content in Readux on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://machiaweliczny.github.io/tags/readux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2017 17:19:04 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/readux/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>redux batched subscribe</title>
@@ -14,9 +17,7 @@
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>&lt;p&gt;When you have too many dispatches when usign &lt;code&gt;redux&lt;/code&gt; performance of rendering might slow down.
-There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.com/tappleby/redux-batched-subscribe&#34;&gt;https://github.com/tappleby/redux-batched-subscribe&lt;/a&gt; that allows to easy debounce notify to improve perf.&lt;/p&gt;
-</description>
+      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
   </channel>

@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/tags/typescript/index.xml</link>
+    <link>http://machiaweliczny.github.io/tags/typescript/</link>
     <description>Recent content in Typescript on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://machiaweliczny.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2017 11:46:16 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>typescript runtime typechecking</title>
@@ -14,10 +17,8 @@
       <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve found equivalent of &lt;code&gt;babel-plugin-tcomb&lt;/code&gt; for TypeScript - &lt;a href=&#34;https://github.com/fabiandev/ts-runtime&#34;&gt;https://github.com/fabiandev/ts-runtime&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve found it in this thread - &lt;a href=&#34;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&#34;&gt;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
+I&amp;rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559</description>
     </item>
     
   </channel>

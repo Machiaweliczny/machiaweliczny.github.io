@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/tags/git/index.xml</link>
+    <link>http://machiaweliczny.github.io/tags/git/</link>
     <description>Recent content in Git on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://machiaweliczny.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2017 15:42:58 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Small git tips</title>
@@ -14,30 +17,9 @@
       <pubDate>Sun, 18 Jun 2017 15:42:58 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
-      <description>&lt;p&gt;The cool think I didn&amp;rsquo;t knew is that when you type &lt;code&gt;git checkout -&lt;/code&gt; it returns to previous branch.&lt;/p&gt;
-
-&lt;p&gt;The same applies to shell &lt;code&gt;cd -&lt;/code&gt; returns to previous catalog, so you don&amp;rsquo;t have to use &lt;code&gt;pushd path&lt;/code&gt; &amp;amp;&amp;amp; &lt;code&gt;popd&lt;/code&gt;
-Also the default for &lt;code&gt;cd&lt;/code&gt; is &lt;code&gt;cd ~&lt;/code&gt; [embarased].&lt;/p&gt;
-
-&lt;p&gt;And when we are talking about &lt;code&gt;cd&lt;/code&gt; - I recommend this great utility tool - &lt;a href=&#34;https://github.com/rupa/z&#34;&gt;https://github.com/rupa/z&lt;/a&gt; - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for &lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Ok one more useful thing related to git. I have tons of branches as never clean them up too early
-to have some backup/compare and then after release it&amp;rsquo;s good to clean up. I like to do do this using &lt;code&gt;xargs&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git branch &amp;gt; branches_to_delete.txt
-vim branches_to_delete.txt
-delete[dd] branches you actually need
-cat branches_to_delete.txt | xargs git branch -d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Another cool tools I found recently related to git are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kamranahmedse/git-standup&#34;&gt;https://github.com/kamranahmedse/git-standup&lt;/a&gt; - check what your teammates have been doing recently&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/erikbern/git-of-theseus&#34;&gt;https://github.com/erikbern/git-of-theseus&lt;/a&gt; - analyse how repo grows over time&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tomgi/git_stats&#34;&gt;https://github.com/tomgi/git_stats&lt;/a&gt; - stats about who wrote how much code&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
+The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
+And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
     </item>
     
   </channel>

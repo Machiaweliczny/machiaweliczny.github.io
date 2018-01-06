@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/post/test/</loc>
+    <lastmod>2018-01-06T10:07:32+01:00</lastmod>
+  </url>
   
   <url>
     <loc>http://machiaweliczny.github.io/post/rendering-resource-in-react/</loc>
@@ -19,11 +25,6 @@
   <url>
     <loc>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</loc>
     <lastmod>2017-06-19T11:46:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://machiaweliczny.github.io/post/ruby-contracts/</loc>
-    <lastmod>2017-06-19T11:45:07+02:00</lastmod>
   </url>
   
   <url>
@@ -62,12 +63,6 @@
   </url>
   
   <url>
-    <loc>http://machiaweliczny.github.io/categories/</loc>
-    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://machiaweliczny.github.io/tags/</loc>
     <lastmod>2017-06-22T21:21:28+02:00</lastmod>
     <priority>0</priority>
@@ -75,6 +70,13 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/categories/</loc>
+    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/categories/</loc>
+    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +94,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/</loc>
-    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
+    <lastmod>2018-01-06T10:07:32+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -122,7 +124,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/post/</loc>
-    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
+    <lastmod>2018-01-06T10:07:32+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -170,18 +172,13 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/tags/</loc>
+    <lastmod>2017-06-22T21:21:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://machiaweliczny.github.io/tags/tests/</loc>
     <lastmod>2017-03-24T19:11:08+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://machiaweliczny.github.io/tags/types/</loc>
-    <lastmod>2017-06-19T11:45:07+02:00</lastmod>
     <priority>0</priority>
   </url>
   

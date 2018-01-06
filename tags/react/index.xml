@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/tags/react/index.xml</link>
+    <link>http://machiaweliczny.github.io/tags/react/</link>
     <description>Recent content in React on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://machiaweliczny.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jun 2017 21:21:28 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>rendering resource in react</title>
@@ -14,20 +17,8 @@
       <pubDate>Thu, 22 Jun 2017 21:21:28 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/rendering-resource-in-react/</guid>
-      <description>&lt;p&gt;In order to not forget about rendering all states of resource provisioning and handle errors gracefully
-I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;type ResourceDisplay = {|
-  whenError: Element&amp;lt;*&amp;gt;,
-  whenLoading: Element&amp;lt;*&amp;gt;,
-  whenReady: Element&amp;lt;*&amp;gt;,
-  whenEmpty: Element&amp;lt;*&amp;gt;,
-  isLoading: boolean,
-  isError: boolean,
-  resource: Array&amp;lt;*&amp;gt;,
-|}`
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:
+type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Element&amp;lt;*&amp;gt;, whenReady: Element&amp;lt;*&amp;gt;, whenEmpty: Element&amp;lt;*&amp;gt;, isLoading: boolean, isError: boolean, resource: Array&amp;lt;*&amp;gt;, |}`  </description>
     </item>
     
     <item>
@@ -36,9 +27,7 @@ I introduced react HoC(higher order component) with such props and it&amp;rsquo;
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>&lt;p&gt;When you have too many dispatches when usign &lt;code&gt;redux&lt;/code&gt; performance of rendering might slow down.
-There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.com/tappleby/redux-batched-subscribe&#34;&gt;https://github.com/tappleby/redux-batched-subscribe&lt;/a&gt; that allows to easy debounce notify to improve perf.&lt;/p&gt;
-</description>
+      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
     <item>
@@ -47,10 +36,7 @@ There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.
       <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/react-komposer-post/</guid>
-      <description>&lt;p&gt;Recently I found quite nice HoC abstracting async data delivery for component.
-It&amp;rsquo;s called &lt;a href=&#34;https://github.com/arunoda/react-komposer&#34;&gt;https://github.com/arunoda/react-komposer&lt;/a&gt; and I recommend you check it out as it provides clean API for defining
-async depencencies.&lt;/p&gt;
-</description>
+      <description>Recently I found quite nice HoC abstracting async data delivery for component. It&amp;rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.</description>
     </item>
     
   </channel>

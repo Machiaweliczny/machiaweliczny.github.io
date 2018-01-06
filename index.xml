@@ -2,12 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/index.xml</link>
+    <link>http://machiaweliczny.github.io/</link>
     <description>Recent content on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 21:21:28 +0200</lastBuildDate>
-    <atom:link href="http://machiaweliczny.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2018 10:07:32 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>http://machiaweliczny.github.io/post/test/</link>
+      <pubDate>Sat, 06 Jan 2018 10:07:32 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/test/</guid>
+      <description>TEST OF AFTERDARK THEME</description>
+    </item>
     
     <item>
       <title>rendering resource in react</title>
@@ -15,20 +26,8 @@
       <pubDate>Thu, 22 Jun 2017 21:21:28 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/rendering-resource-in-react/</guid>
-      <description>&lt;p&gt;In order to not forget about rendering all states of resource provisioning and handle errors gracefully
-I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;type ResourceDisplay = {|
-  whenError: Element&amp;lt;*&amp;gt;,
-  whenLoading: Element&amp;lt;*&amp;gt;,
-  whenReady: Element&amp;lt;*&amp;gt;,
-  whenEmpty: Element&amp;lt;*&amp;gt;,
-  isLoading: boolean,
-  isError: boolean,
-  resource: Array&amp;lt;*&amp;gt;,
-|}`
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:
+type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Element&amp;lt;*&amp;gt;, whenReady: Element&amp;lt;*&amp;gt;, whenEmpty: Element&amp;lt;*&amp;gt;, isLoading: boolean, isError: boolean, resource: Array&amp;lt;*&amp;gt;, |}`  </description>
     </item>
     
     <item>
@@ -37,9 +36,7 @@ I introduced react HoC(higher order component) with such props and it&amp;rsquo;
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>&lt;p&gt;When you have too many dispatches when usign &lt;code&gt;redux&lt;/code&gt; performance of rendering might slow down.
-There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.com/tappleby/redux-batched-subscribe&#34;&gt;https://github.com/tappleby/redux-batched-subscribe&lt;/a&gt; that allows to easy debounce notify to improve perf.&lt;/p&gt;
-</description>
+      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
     <item>
@@ -48,10 +45,8 @@ There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.
       <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/ruby-reality/</guid>
-      <description>&lt;p&gt;Today collegue pointed me to cool gem which helps retrieve information from wikipedia: &lt;a href=&#34;https://github.com/molybdenum-99/reality&#34;&gt;https://github.com/molybdenum-99/reality&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is quite neat and may be usefull for some scripting task.&lt;/p&gt;
-</description>
+      <description>Today collegue pointed me to cool gem which helps retrieve information from wikipedia: https://github.com/molybdenum-99/reality
+This is quite neat and may be usefull for some scripting task.</description>
     </item>
     
     <item>
@@ -60,25 +55,8 @@ There&amp;rsquo;s in quite nice store enhancer - &lt;a href=&#34;https://github.
       <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve found equivalent of &lt;code&gt;babel-plugin-tcomb&lt;/code&gt; for TypeScript - &lt;a href=&#34;https://github.com/fabiandev/ts-runtime&#34;&gt;https://github.com/fabiandev/ts-runtime&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve found it in this thread - &lt;a href=&#34;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&#34;&gt;https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ruby contracts</title>
-      <link>http://machiaweliczny.github.io/post/ruby-contracts/</link>
-      <pubDate>Mon, 19 Jun 2017 11:45:07 +0200</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/ruby-contracts/</guid>
-      <description>&lt;p&gt;Recently I tested &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby&#34;&gt;https://github.com/egonSchiele/contracts.ruby&lt;/a&gt; types assertions for ruby as I prefer executable documentation and it&amp;rsquo;s quite expressive and works correctly.&lt;/p&gt;
-
-&lt;p&gt;The only problem I have is that for complex hashes error is unreadable so I&amp;rsquo;ve created issue with &lt;a href=&#34;https://github.com/egonSchiele/contracts.ruby/issues/261&#34;&gt;enhancement proposal&lt;/a&gt; how to fix it.
-Unfortunatelly project is not maintained anymore, so I will have to write this patch alone probably :)&lt;/p&gt;
-
-&lt;p&gt;Anyway I recommend it.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
+I&amp;rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559</description>
     </item>
     
     <item>
@@ -87,30 +65,9 @@ Unfortunatelly project is not maintained anymore, so I will have to write this p
       <pubDate>Sun, 18 Jun 2017 15:42:58 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
-      <description>&lt;p&gt;The cool think I didn&amp;rsquo;t knew is that when you type &lt;code&gt;git checkout -&lt;/code&gt; it returns to previous branch.&lt;/p&gt;
-
-&lt;p&gt;The same applies to shell &lt;code&gt;cd -&lt;/code&gt; returns to previous catalog, so you don&amp;rsquo;t have to use &lt;code&gt;pushd path&lt;/code&gt; &amp;amp;&amp;amp; &lt;code&gt;popd&lt;/code&gt;
-Also the default for &lt;code&gt;cd&lt;/code&gt; is &lt;code&gt;cd ~&lt;/code&gt; [embarased].&lt;/p&gt;
-
-&lt;p&gt;And when we are talking about &lt;code&gt;cd&lt;/code&gt; - I recommend this great utility tool - &lt;a href=&#34;https://github.com/rupa/z&#34;&gt;https://github.com/rupa/z&lt;/a&gt; - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for &lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Ok one more useful thing related to git. I have tons of branches as never clean them up too early
-to have some backup/compare and then after release it&amp;rsquo;s good to clean up. I like to do do this using &lt;code&gt;xargs&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git branch &amp;gt; branches_to_delete.txt
-vim branches_to_delete.txt
-delete[dd] branches you actually need
-cat branches_to_delete.txt | xargs git branch -d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Another cool tools I found recently related to git are:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kamranahmedse/git-standup&#34;&gt;https://github.com/kamranahmedse/git-standup&lt;/a&gt; - check what your teammates have been doing recently&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/erikbern/git-of-theseus&#34;&gt;https://github.com/erikbern/git-of-theseus&lt;/a&gt; - analyse how repo grows over time&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tomgi/git_stats&#34;&gt;https://github.com/tomgi/git_stats&lt;/a&gt; - stats about who wrote how much code&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
+The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
+And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
     </item>
     
     <item>
@@ -119,9 +76,7 @@ cat branches_to_delete.txt | xargs git branch -d
       <pubDate>Sat, 17 Jun 2017 14:22:42 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/npm-trends/</guid>
-      <description>&lt;p&gt;When evaluating packages on NPM it&amp;rsquo;s good to check downloads stars and issues that package have
-and &lt;a href=&#34;http://www.npmtrends.com/&#34;&gt;http://www.npmtrends.com/&lt;/a&gt; does exactly that.&lt;/p&gt;
-</description>
+      <description>When evaluating packages on NPM it&amp;rsquo;s good to check downloads stars and issues that package have and http://www.npmtrends.com/ does exactly that.</description>
     </item>
     
     <item>
@@ -130,10 +85,7 @@ and &lt;a href=&#34;http://www.npmtrends.com/&#34;&gt;http://www.npmtrends.com/&
       <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/react-komposer-post/</guid>
-      <description>&lt;p&gt;Recently I found quite nice HoC abstracting async data delivery for component.
-It&amp;rsquo;s called &lt;a href=&#34;https://github.com/arunoda/react-komposer&#34;&gt;https://github.com/arunoda/react-komposer&lt;/a&gt; and I recommend you check it out as it provides clean API for defining
-async depencencies.&lt;/p&gt;
-</description>
+      <description>Recently I found quite nice HoC abstracting async data delivery for component. It&amp;rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.</description>
     </item>
     
     <item>
@@ -142,8 +94,7 @@ async depencencies.&lt;/p&gt;
       <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</guid>
-      <description>&lt;p&gt;Recently I&amp;rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&amp;rsquo;s called &lt;a href=&#34;https://github.com/gcanti/babel-plugin-tcomb&#34;&gt;https://github.com/gcanti/babel-plugin-tcomb&lt;/a&gt; It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.&lt;/p&gt;
-</description>
+      <description>Recently I&amp;rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&amp;rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.</description>
     </item>
     
     <item>
@@ -152,19 +103,10 @@ async depencencies.&lt;/p&gt;
       <pubDate>Fri, 24 Mar 2017 21:26:54 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/3blue1brown_math_videos/</guid>
-      <description>&lt;p&gt;I stumbled recently on quite nice math visualization videos by &lt;a href=&#34;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34;&gt;3blue1brown&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;He&amp;rsquo;s most pupular because of &amp;ldquo;essence of linear algebra&amp;rdquo; playlist but I enjoyed riddles the most.
-I agree with him that in education lack of visualization can make concepts too abstract and hard to digest, so I would like to spread the word about great channel.&lt;/p&gt;
-
-&lt;p&gt;And if we are talking about linear algebra:&lt;/p&gt;
-
-&lt;p&gt;Another quite good course on linear algebra in on Khan Academy (it might be a little too slow paced but it&amp;rsquo;s good).&lt;/p&gt;
-
-&lt;p&gt;I found it by &lt;a href=&#34;https://news.ycombinator.com/item?id=13904881&#34;&gt;reading&lt;/a&gt; about this book on linear algebra &lt;a href=&#34;http://immersivemath.com/ila/index.html&#34;&gt;http://immersivemath.com/ila/index.html&lt;/a&gt; which you also might find interesting(It&amp;rsquo;s a little sluggish on my pc though).&lt;/p&gt;
-
-&lt;p&gt;Best way to get familiar with linear algebra is to do some graphics programming. I can recommend 3d graphics course on &lt;a href=&#34;https://www.udacity.com/course/interactive-3d-graphics--cs291&#34;&gt;Udacity by AutoDesk&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>I stumbled recently on quite nice math visualization videos by 3blue1brown.
+He&amp;rsquo;s most pupular because of &amp;ldquo;essence of linear algebra&amp;rdquo; playlist but I enjoyed riddles the most. I agree with him that in education lack of visualization can make concepts too abstract and hard to digest, so I would like to spread the word about great channel.
+And if we are talking about linear algebra:
+Another quite good course on linear algebra in on Khan Academy (it might be a little too slow paced but it&amp;rsquo;s good).</description>
     </item>
     
     <item>
@@ -173,66 +115,9 @@ I agree with him that in education lack of visualization can make concepts too a
       <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</guid>
-      <description>&lt;p&gt;While exploring &lt;a href=&#34;https://github.com/reactjs/redux/issues?q=is%3Aissue+label%3Adiscussion+is%3Aclosed&#34;&gt;discussion issues&lt;/a&gt; in redux  I found a nice library called &lt;a href=&#34;https://github.com/substantial/updeep&#34;&gt;updeep&lt;/a&gt; and it&amp;rsquo;s use to define reducers.&lt;/p&gt;
-
-&lt;p&gt;It looks like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-[javscript]&#34;&gt;import u from &#39;updeep&#39;
-
-export const reducer = createReducer({
-  // [action name]: action =&amp;gt; currentState =&amp;gt; nextState
-  startCompiling: () =&amp;gt; u({ compiling: true }),
-  errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }),
-  startRunning: ({ app }) =&amp;gt; u({
-    running: () =&amp;gt; app,
-    compiling: false
-  }),
-  stopRunning: () =&amp;gt; u({ running: false }),
-  discardCompileError: () =&amp;gt; u({ compileError: null }),
-  // ...
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Source: &lt;a href=&#34;https://github.com/reactjs/redux/issues/1171#issuecomment-205888533&#34;&gt;https://github.com/reactjs/redux/issues/1171#issuecomment-205888533&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Ok there&amp;rsquo;s missing &lt;code&gt;createReducer&lt;/code&gt; function but we can define it on our own like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;// definition := { [action.type]: action =&amp;gt; currentState =&amp;gt; nextState }
-export default function createReducer(initialState, definition){
-  return (state = initialState, action) =&amp;gt; {
-    const actionResponse = definition[action.type];
-    return actionResponse ? actionResponse(action)(state) : state;
-  };
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is more &lt;code&gt;actions&lt;/code&gt; oriented approach to the classical switch mentioned in redux docs,
- which are more data oriented(when you use &lt;code&gt;combineReducers&lt;/code&gt; and switch).&lt;/p&gt;
-
-&lt;p&gt;What I like more about this updeep library is that it&amp;rsquo;s perfect for testing reducer mutation when you have complex data tree.&lt;/p&gt;
-
-&lt;p&gt;With it&amp;rsquo;s help you can write tests without any boilerplate like this(CoffeScript):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-[javascript]&#34;&gt;u = ...
-redux = ...
-
-initialState = redux.getState()
-
-# define data paths which you expect modified:
-expectedState =
-  first:
-    path: &amp;quot;foo&amp;quot;
-  other:
-    path:
-      one: &amp;quot;two&amp;quot;
-  and:
-    this: &amp;quot;bar&amp;quot;
-
-redux.dispatch({ type: &amp;quot;MY_ACTION&amp;quot; });
-expect(u(expectedState, initialState)).toEqual(redux.getState())
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>While exploring discussion issues in redux I found a nice library called updeep and it&amp;rsquo;s use to define reducers.
+It looks like this:
+import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&amp;gt; currentState =&amp;gt; nextState startCompiling: () =&amp;gt; u({ compiling: true }), errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&amp;gt; u({ running: () =&amp;gt; app, compiling: false }), stopRunning: () =&amp;gt; u({ running: false }), discardCompileError: () =&amp;gt; u({ compileError: null }), // .</description>
     </item>
     
     <item>
@@ -241,23 +126,11 @@ expect(u(expectedState, initialState)).toEqual(redux.getState())
       <pubDate>Mon, 20 Mar 2017 21:42:48 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/welcome/</guid>
-      <description>
-
-&lt;h3 id=&#34;welcome-on-my-dev-blog-friends&#34;&gt;Welcome on my dev blog friends :)&lt;/h3&gt;
-
-&lt;p&gt;Nice to have you on this site!&lt;/p&gt;
-
-&lt;p&gt;I plan to write here some hopefully interesting things from time to time, mostly about programming.&lt;/p&gt;
-
-&lt;p&gt;Some words about me:&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m Damian, ~24 years old and I&amp;rsquo;m from Poland.
-I like to code, travel and play computer games.&lt;/p&gt;
-
-&lt;p&gt;I work as web developer using mostly Javascript and Ruby and learning Elixir in my spare time.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m interested in software engineering, algorithms and AI.&lt;/p&gt;
-</description>
+      <description>Welcome on my dev blog friends :) Nice to have you on this site!
+I plan to write here some hopefully interesting things from time to time, mostly about programming.
+Some words about me:
+I&amp;rsquo;m Damian, ~24 years old and I&amp;rsquo;m from Poland. I like to code, travel and play computer games.
+I work as web developer using mostly Javascript and Ruby and learning Elixir in my spare time.</description>
     </item>
     
   </channel>
