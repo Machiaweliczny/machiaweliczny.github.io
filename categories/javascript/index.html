@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.32.2" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <title>Javascript | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
     <meta name="description" content="">
     <meta name="keywords" content=", editor, javascript, misc, performance, scripting, ">
     
@@ -18,10 +18,10 @@
   <meta name="author" content="">
 
 
-    <meta property="og:title" content="Posts" />
+    <meta property="og:title" content="Javascript" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://machiaweliczny.github.io/post/" />
+<meta property="og:url" content="http://machiaweliczny.github.io/categories/javascript/" />
 
 
 
@@ -53,9 +53,9 @@ ga('send', 'pageview');
 <script async src='//www.google-analytics.com/analytics.js'></script>
 
     
-      <link href="http://machiaweliczny.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)" />
+      <link href="http://machiaweliczny.github.io/categories/javascript/index.xml" rel="alternate" type="application/rss+xml" title="Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)" />
     
-    <link rel="canonical" href="http://machiaweliczny.github.io/post/">
+    <link rel="canonical" href="http://machiaweliczny.github.io/categories/javascript/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -178,7 +178,7 @@ article [itemprop="description"] {
 </header>
     <main>
   <header>
-    <h1>Posts</h1>
+    <h1>Javascript</h1>
   </header>
   
     <article itemscope itemtype="http://schema.org/CreativeWork">
@@ -322,213 +322,12 @@ Quite good alternative to webpack for greenfield projects but for more complex/l
 </article>
 
   
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/rendering-resource-in-react/">rendering resource in react</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-22T21:21:28&#43;02:00">22 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&rsquo;s working great:
-type ResourceDisplay = {| whenError: Element&lt;*&gt;, whenLoading: Element&lt;*&gt;, whenReady: Element&lt;*&gt;, whenEmpty: Element&lt;*&gt;, isLoading: boolean, isError: boolean, resource: Array&lt;*&gt;, |}`  
-  </div>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-22T21:21:28&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-22T21:21:28&#43;02:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/redux-batched-subscribe/">redux batched subscribe</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-19T17:19:04&#43;02:00">19 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    When you have too many dispatches when usign redux performance of rendering might slow down. There&rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.
-  </div>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-19T17:19:04&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-19T17:19:04&#43;02:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/ruby-reality/">ruby reality</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-19T11:56:55&#43;02:00">19 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    Today collegue pointed me to cool gem which helps retrieve information from wikipedia: https://github.com/molybdenum-99/reality
-This is quite neat and may be usefull for some scripting task.
-  </div>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-19T11:56:55&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-19T11:56:55&#43;02:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/typescript-runtime-typechecking/">typescript runtime typechecking</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-19T11:46:16&#43;02:00">19 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    I&rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
-I&rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559
-  </div>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-19T11:46:16&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-19T11:46:16&#43;02:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/git-tip/">Small git tips</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-18T15:42:58&#43;02:00">18 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    The cool think I didn&rsquo;t knew is that when you type git checkout - it returns to previous branch.
-The same applies to shell cd - returns to previous catalog, so you don&rsquo;t have to use pushd path &amp;&amp; popd Also the default for cd is cd ~ [embarased].
-And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&rsquo;s &ldquo;fuzzy finder&rdquo; for cd
-  </div>
-  
-    <nav class="readmore"><a itemprop="url" href="/post/git-tip/">Read More&nbsp;&raquo;</a></nav>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-18T15:42:58&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-18T15:42:58&#43;02:00">
-  
-</article>
-
-  
-    <article itemscope itemtype="http://schema.org/CreativeWork">
-  <header>
-    <h2 itemprop="name">
-      <a href="/post/npm-trends/">npm trends</a>
-    </h2>
-    
-      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>1 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2017-06-17T14:22:42&#43;02:00">17 Jun, 2017</time>
-
-</p>
-    
-  </header>
-  
-  <div itemprop="description">
-    When evaluating packages on NPM it&rsquo;s good to check downloads stars and issues that package have and http://www.npmtrends.com/ does exactly that.
-  </div>
-  
-  <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-06-17T14:22:42&#43;02:00">
-  <meta itemprop="dateModified" content="2017-06-17T14:22:42&#43;02:00">
-  
-</article>
-
-  
 </main>
     <footer>
   <nav>
   <p>
     
-    <span>Page 1 of 2</span>
-    
-      | <a href="/post/page/2/">Next &raquo;</a>
+    <span>Page 1 of 1</span>
     
   </p>
 </nav>

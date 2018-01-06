@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/javascript/</link>
+    <description>Recent content in Javascript on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jan 2018 11:00:55 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code</title>
+      <link>http://machiaweliczny.github.io/post/vscode/</link>
+      <pubDate>Sat, 06 Jan 2018 11:00:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/vscode/</guid>
+      <description>I just want to mention that recently I&amp;rsquo;ve switched fully to VS Code for Typescript development and it&amp;rsquo;s simply great. So if you haven&amp;rsquo;t tried it yet - I can totaly recommend it.
+Just remember to click at everthing in &amp;ldquo;Learn&amp;rdquo; in Welcome page as this is great introduction to interface.
+There are keymaps(bindings) for other popular editors, so you don&amp;rsquo;t have to learn new keybinding or configure them by yourself.</description>
+    </item>
+    
+    <item>
+      <title>Stackblitz</title>
+      <link>http://machiaweliczny.github.io/post/stackblitz/</link>
+      <pubDate>Sat, 06 Jan 2018 10:56:59 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/stackblitz/</guid>
+      <description>I have stumbled upon https://stackblitz.com/ ala JS fiddle online code editor which utilises VS Code and let&amp;rsquo;s you easily share the results. Looks cool and they have designed some new package manager for it - https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403</description>
+    </item>
+    
+    <item>
+      <title>Migrating Angularjs to Webpack</title>
+      <link>http://machiaweliczny.github.io/post/migrating-angularjs-to-webpack/</link>
+      <pubDate>Sat, 06 Jan 2018 10:39:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/migrating-angularjs-to-webpack/</guid>
+      <description>Recently I had to work on Angularjs(1.X) codebase and I dedided that it needed and update of build process to match modern standards and gain great tooling support that comes with it.
+It was using grunt and with the help of these two articles I successfuly migrated to webpack:
+ https://medium.com/appifycanada/migrate-to-webpack-from-grunt-bower-legacy-build-system-344526f47873 https://medium.com/eventmobi/how-to-incrementally-switch-to-webpack-203a1b431f7a  As grunt requires files in alphabetical order you have to imitate this with webpack and the most important part of code is this:</description>
+    </item>
+    
+    <item>
+      <title>ParcelJs</title>
+      <link>http://machiaweliczny.github.io/post/parceljs/</link>
+      <pubDate>Sat, 06 Jan 2018 10:18:50 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/parceljs/</guid>
+      <description>Recently I tested parceljs - bundler advertised as zero config and it delivered.
+Actually I had to do one thing to make it work with typescript: npm i typescript
+You simply run it like this parcel index.html and use &amp;lt;script scr=&amp;quot;index.ts&amp;quot; /&amp;gt; inside.
+Quite good alternative to webpack for greenfield projects but for more complex/legacy projects I would stay with webpack.</description>
+    </item>
+    
+  </channel>
+</rss>

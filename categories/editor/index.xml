@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editor on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/editor/</link>
+    <description>Recent content in Editor on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jan 2018 10:56:59 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stackblitz</title>
+      <link>http://machiaweliczny.github.io/post/stackblitz/</link>
+      <pubDate>Sat, 06 Jan 2018 10:56:59 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/stackblitz/</guid>
+      <description>I have stumbled upon https://stackblitz.com/ ala JS fiddle online code editor which utilises VS Code and let&amp;rsquo;s you easily share the results. Looks cool and they have designed some new package manager for it - https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403</description>
+    </item>
+    
+  </channel>
+</rss>
