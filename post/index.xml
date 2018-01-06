@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 13:11:11 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2018 13:16:26 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gitup - best free git GUI for mac</title>
+      <link>http://machiaweliczny.github.io/post/gitup/</link>
+      <pubDate>Sat, 06 Jan 2018 13:16:26 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/gitup/</guid>
+      <description>Hey I wanna share great free git GUI for mac which I like to use and it&amp;rsquo;s not so well known - http://gitup.co/</description>
+    </item>
     
     <item>
       <title>VS Code Run Script on Selected Text</title>

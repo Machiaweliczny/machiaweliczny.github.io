@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://machiaweliczny.github.io/post/gitup/</loc>
+    <lastmod>2018-01-06T13:16:26+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://machiaweliczny.github.io/post/vs-code-run-script-on-selected-text/</loc>
     <lastmod>2018-01-06T13:11:11+01:00</lastmod>
   </url>
@@ -83,13 +88,13 @@
   </url>
   
   <url>
-    <loc>http://machiaweliczny.github.io/tags/</loc>
+    <loc>http://machiaweliczny.github.io/categories/</loc>
     <lastmod>2017-06-22T21:21:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://machiaweliczny.github.io/categories/</loc>
+    <loc>http://machiaweliczny.github.io/tags/</loc>
     <lastmod>2017-06-22T21:21:28+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -107,14 +112,14 @@
   </url>
   
   <url>
-    <loc>http://machiaweliczny.github.io/tags/git/</loc>
-    <lastmod>2017-06-18T15:42:58+02:00</lastmod>
+    <loc>http://machiaweliczny.github.io/categories/git/</loc>
+    <lastmod>2018-01-06T13:16:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://machiaweliczny.github.io/tags/javascript/</loc>
-    <lastmod>2017-03-24T19:11:08+01:00</lastmod>
+    <loc>http://machiaweliczny.github.io/tags/git/</loc>
+    <lastmod>2017-06-18T15:42:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,8 +130,20 @@
   </url>
   
   <url>
+    <loc>http://machiaweliczny.github.io/tags/javascript/</loc>
+    <lastmod>2017-03-24T19:11:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/categories/mac/</loc>
+    <lastmod>2018-01-06T13:16:26+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://machiaweliczny.github.io/</loc>
-    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
+    <lastmod>2018-01-06T13:16:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,7 +173,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/post/</loc>
-    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
+    <lastmod>2018-01-06T13:16:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
