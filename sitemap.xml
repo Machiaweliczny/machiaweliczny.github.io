@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://machiaweliczny.github.io/post/vs-code-run-script-on-selected-text/</loc>
+    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://machiaweliczny.github.io/post/vscode/</loc>
     <lastmod>2018-01-06T11:00:55+01:00</lastmod>
   </url>
@@ -115,13 +120,13 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/categories/javascript/</loc>
-    <lastmod>2018-01-06T11:00:55+01:00</lastmod>
+    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://machiaweliczny.github.io/</loc>
-    <lastmod>2018-01-06T11:00:55+01:00</lastmod>
+    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +156,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/post/</loc>
-    <lastmod>2018-01-06T11:00:55+01:00</lastmod>
+    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,6 +223,12 @@
   <url>
     <loc>http://machiaweliczny.github.io/tags/ui/</loc>
     <lastmod>2017-03-24T19:11:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/categories/vscode/</loc>
+    <lastmod>2018-01-06T13:11:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <title>Categories on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
     <link>http://machiaweliczny.github.io/categories/</link>
-    <description>Recent content on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <description>Recent content in Categories on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 21:21:28 +0200</lastBuildDate>
@@ -12,37 +12,70 @@
     
     
     <item>
-      <title>rendering resource in react</title>
-      <link>http://machiaweliczny.github.io/post/rendering-resource-in-react/</link>
+      <title></title>
+      <link>http://machiaweliczny.github.io/categories/</link>
       <pubDate>Thu, 22 Jun 2017 21:21:28 +0200</pubDate>
       
-      <guid>http://machiaweliczny.github.io/post/rendering-resource-in-react/</guid>
-      <description>In order to not forget about rendering all states of resource provisioning and handle errors gracefully I introduced react HoC(higher order component) with such props and it&amp;rsquo;s working great:
-type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Element&amp;lt;*&amp;gt;, whenReady: Element&amp;lt;*&amp;gt;, whenEmpty: Element&amp;lt;*&amp;gt;, isLoading: boolean, isError: boolean, resource: Array&amp;lt;*&amp;gt;, |}`  </description>
+      <guid>http://machiaweliczny.github.io/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>typescript runtime typechecking</title>
-      <link>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</link>
-      <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
+      <title>Editor</title>
+      <link>http://machiaweliczny.github.io/categories/editor/</link>
+      <pubDate>Sat, 06 Jan 2018 10:56:59 +0100</pubDate>
       
-      <guid>http://machiaweliczny.github.io/post/typescript-runtime-typechecking/</guid>
-      <description>I&amp;rsquo;ve found equivalent of babel-plugin-tcomb for TypeScript - https://github.com/fabiandev/ts-runtime
-I&amp;rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript/issues/1573#issuecomment-309359559</description>
+      <guid>http://machiaweliczny.github.io/categories/editor/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Small git tips</title>
-      <link>http://machiaweliczny.github.io/post/git-tip/</link>
-      <pubDate>Sun, 18 Jun 2017 15:42:58 +0200</pubDate>
+      <title>Javascript</title>
+      <link>http://machiaweliczny.github.io/categories/javascript/</link>
+      <pubDate>Sat, 06 Jan 2018 13:11:11 +0100</pubDate>
       
-      <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
-      <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
-The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
-And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
+      <guid>http://machiaweliczny.github.io/categories/javascript/</guid>
+      <description></description>
     </item>
     
     <item>
+      <title>Misc</title>
+      <link>http://machiaweliczny.github.io/categories/misc/</link>
+      <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>http://machiaweliczny.github.io/categories/performance/</link>
+      <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripting</title>
+      <link>http://machiaweliczny.github.io/categories/scripting/</link>
+      <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>http://machiaweliczny.github.io/categories/vscode/</link>
+      <pubDate>Sat, 06 Jan 2018 13:11:11 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/vscode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>  <item>
       <title>npm trends</title>
       <link>http://machiaweliczny.github.io/post/npm-trends/</link>
       <pubDate>Sat, 17 Jun 2017 14:22:42 +0200</pubDate>
