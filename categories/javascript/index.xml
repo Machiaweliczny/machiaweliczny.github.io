@@ -6,10 +6,21 @@
     <description>Recent content in Javascript on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 13:11:11 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jan 2018 15:32:57 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>State of JS 2017</title>
+      <link>http://machiaweliczny.github.io/post/stateofjs2017/</link>
+      <pubDate>Sun, 21 Jan 2018 15:32:57 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/stateofjs2017/</guid>
+      <description>If you haven&amp;rsquo;t read yet it&amp;rsquo;s good to get through some JS ecosystem surveys like stateofjs or risingstars
+The tech I presonally started using recently(after switching to frontend only role) is:
+ VS Code - I was using atom before but it felt a little slugish, so after switching to Typescript I started using VS Code and I&amp;rsquo;m happier. Atom keybindings extension made transition painless. Would like to have code outline natively.</description>
+    </item>
     
     <item>
       <title>VS Code Run Script on Selected Text</title>
