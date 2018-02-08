@@ -6,10 +6,19 @@
     <description>Recent content in Vscode on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 13:11:11 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2018 10:42:09 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/categories/vscode/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>React Playground - Preview React in VS Code</title>
+      <link>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</link>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</guid>
+      <description>If you need to preview some React components from within VS code then https://marketplace.visualstudio.com/items?itemName=wmira.react-playground-vscode might help. Works only with .jsx files though. I would prefer it to use ParcelJS for example and handle .tsx files also.</description>
+    </item>
     
     <item>
       <title>VS Code Run Script on Selected Text</title>

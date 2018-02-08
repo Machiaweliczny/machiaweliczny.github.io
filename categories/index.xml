@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Components</title>
+      <link>http://machiaweliczny.github.io/categories/components/</link>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/components/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Css</title>
       <link>http://machiaweliczny.github.io/categories/css/</link>
       <pubDate>Thu, 08 Feb 2018 08:37:13 +0100</pubDate>
@@ -41,7 +50,7 @@
     <item>
       <title>Git</title>
       <link>http://machiaweliczny.github.io/categories/git/</link>
-      <pubDate>Sat, 06 Jan 2018 13:16:26 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/categories/git/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Javascript</title>
       <link>http://machiaweliczny.github.io/categories/javascript/</link>
-      <pubDate>Thu, 08 Feb 2018 08:37:13 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/categories/javascript/</guid>
       <description></description>
@@ -84,6 +93,24 @@
     </item>
     
     <item>
+      <title>React</title>
+      <link>http://machiaweliczny.github.io/categories/react/</link>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>http://machiaweliczny.github.io/categories/redux/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scripting</title>
       <link>http://machiaweliczny.github.io/categories/scripting/</link>
       <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
@@ -93,9 +120,18 @@
     </item>
     
     <item>
+      <title>Vdom</title>
+      <link>http://machiaweliczny.github.io/categories/vdom/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/categories/vdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vscode</title>
       <link>http://machiaweliczny.github.io/categories/vscode/</link>
-      <pubDate>Sat, 06 Jan 2018 13:11:11 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/categories/vscode/</guid>
       <description></description>
