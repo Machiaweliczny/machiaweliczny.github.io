@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://machiaweliczny.github.io/post/jscodeshift/</loc>
+    <lastmod>2018-02-09T00:26:25+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://machiaweliczny.github.io/post/bitscr/</loc>
     <lastmod>2018-02-08T15:47:31+01:00</lastmod>
   </url>
@@ -168,7 +173,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/categories/javascript/</loc>
-    <lastmod>2018-02-08T10:14:29+01:00</lastmod>
+    <lastmod>2018-02-09T00:26:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,7 +185,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/</loc>
-    <lastmod>2018-02-08T15:47:31+01:00</lastmod>
+    <lastmod>2018-02-09T00:26:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,7 +215,7 @@
   
   <url>
     <loc>http://machiaweliczny.github.io/post/</loc>
-    <lastmod>2018-02-08T15:47:31+01:00</lastmod>
+    <lastmod>2018-02-09T00:26:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,6 +252,12 @@
   <url>
     <loc>http://machiaweliczny.github.io/categories/redux/</loc>
     <lastmod>2018-02-08T10:14:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://machiaweliczny.github.io/categories/refactoring/</loc>
+    <lastmod>2018-02-09T00:26:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   

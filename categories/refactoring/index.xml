@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactoring on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/refactoring/</link>
+    <description>Recent content in Refactoring on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 00:26:25 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jscodeshift</title>
+      <link>http://machiaweliczny.github.io/post/jscodeshift/</link>
+      <pubDate>Fri, 09 Feb 2018 00:26:25 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/jscodeshift/</guid>
+      <description>If you need to do some bigger refactoring then I can recommend using Jscodeshift which allows you to do AST-to-AST code conversion and pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
+For prototing there&amp;rsquo;s great website called https://astexplorer.net/ where you can test prototype modifications. Remember to use ctrl+space after typing . for avaiable API hints when using first time.
+You can see how to write scripts here - https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

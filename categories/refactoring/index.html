@@ -4,7 +4,7 @@
     <meta name="generator" content="Hugo 0.32.2" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redux | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <title>Refactoring | Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
     <meta name="description" content="">
     <meta name="keywords" content=", components, css, editor, git, javascript, mac, misc, performance, react, redux, refactoring, scripting, vdom, vscode, ">
     
@@ -18,14 +18,14 @@
   <meta name="author" content="Machiaweliczny">
 
 
-    <meta property="og:title" content="Redux" />
+    <meta property="og:title" content="Refactoring" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://machiaweliczny.github.io/tags/redux/" />
+<meta property="og:url" content="http://machiaweliczny.github.io/categories/refactoring/" />
 
 
 
-<meta property="og:updated_time" content="2017-03-24T19:11:08&#43;01:00"/>
+<meta property="og:updated_time" content="2018-02-09T00:26:25&#43;01:00"/>
 
 
 
@@ -53,9 +53,9 @@ ga('send', 'pageview');
 <script async src='//www.google-analytics.com/analytics.js'></script>
 
     
-      <link href="http://machiaweliczny.github.io/tags/redux/index.xml" rel="alternate" type="application/rss+xml" title="Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)" />
+      <link href="http://machiaweliczny.github.io/categories/refactoring/index.xml" rel="alternate" type="application/rss+xml" title="Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)" />
     
-    <link rel="canonical" href="http://machiaweliczny.github.io/tags/redux/">
+    <link rel="canonical" href="http://machiaweliczny.github.io/categories/refactoring/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -186,41 +186,41 @@ article [itemprop="description"] {
 </header>
     <main>
   <header>
-    <h1>Redux</h1>
+    <h1>Refactoring</h1>
   </header>
   
     <article itemscope itemtype="http://schema.org/CreativeWork">
   <header>
     <h2 itemprop="name">
-      <a href="/post/shorter-way-of-defining-reducers/">Shorter way of defining reducers and testing them using updeep</a>
+      <a href="/post/jscodeshift/">Jscodeshift</a>
     </h2>
     
       <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
-<span>2 minute read</span>
+<span>1 minute read</span>
 <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2017-03-24T19:11:08&#43;01:00">24 Mar, 2017</time>
+  Published: <time datetime="2018-02-09T00:26:25&#43;01:00">9 Feb, 2018</time>
 
 </p>
     
   </header>
   
   <div itemprop="description">
-    While exploring discussion issues in redux I found a nice library called updeep and it&rsquo;s use to define reducers.
-It looks like this:
-import u from 'updeep' export const reducer = createReducer({ // [action name]: action =&gt; currentState =&gt; nextState startCompiling: () =&gt; u({ compiling: true }), errorCompiling: ({ error }) =&gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&gt; u({ running: () =&gt; app, compiling: false }), stopRunning: () =&gt; u({ running: false }), discardCompileError: () =&gt; u({ compileError: null }), // .
+    If you need to do some bigger refactoring then I can recommend using Jscodeshift which allows you to do AST-to-AST code conversion and pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
+For prototing there&rsquo;s great website called https://astexplorer.net/ where you can test prototype modifications. Remember to use ctrl+space after typing . for avaiable API hints when using first time.
+You can see how to write scripts here - https://github.
   </div>
   
-    <nav class="readmore"><a itemprop="url" href="/post/shorter-way-of-defining-reducers/">Read More&nbsp;&raquo;</a></nav>
+    <nav class="readmore"><a itemprop="url" href="/post/jscodeshift/">Read More&nbsp;&raquo;</a></nav>
   
   <meta itemprop="inLanguage" content="en-us">
-  <meta itemprop="datePublished" content="2017-03-24T19:11:08&#43;01:00">
-  <meta itemprop="dateModified" content="2017-03-24T19:11:08&#43;01:00">
+  <meta itemprop="datePublished" content="2018-02-09T00:26:25&#43;01:00">
+  <meta itemprop="dateModified" content="2018-02-09T00:26:25&#43;01:00">
   
 </article>
 
