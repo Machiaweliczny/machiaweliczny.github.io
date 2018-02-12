@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Redux on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
-    <link>http://machiaweliczny.github.io/categories/redux/</link>
-    <description>Recent content in Redux on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <title>Mobx on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/mobx/</link>
+    <description>Recent content in Mobx on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Feb 2018 18:31:59 +0100</lastBuildDate>
     
-	<atom:link href="http://machiaweliczny.github.io/categories/redux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://machiaweliczny.github.io/categories/mobx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>I found great thread comparing and explaining reasoning behind usage of Redux and MobX so I higly recommend it if you want to know how these two relate and what are the pros and cons.
 BTW reading &amp;ldquo;disussion&amp;rdquo; or &amp;ldquo;question&amp;rdquo; threads on github is great way to expand knowledge about certain libraries/solution so I highly recommend it.
 Here are for example &amp;ldquo;question&amp;rdquo; threads sorted by most comments for MobX</description>
-    </item>
-    
-    <item>
-      <title>Hyperapp</title>
-      <link>http://machiaweliczny.github.io/post/hyperapp/</link>
-      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/hyperapp/</guid>
-      <description>There&amp;rsquo;s quite popular JS lib that&amp;rsquo;s 315 lines of code and has capabilities of react + redux in it. It&amp;rsquo;s called Hyperapp and you can view the code there https://github.com/hyperapp/hyperapp/blob/master/src/index.js. I need to investigate how actions part is done and maybe it&amp;rsquo;s viable solution if you care about minimal size and want something sane.</description>
     </item>
     
   </channel>
