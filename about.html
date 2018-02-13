@@ -8,49 +8,55 @@
     <style>
         body {
             padding: 20px;
+            line-height: 1.5;
             background-color: black;
             color: white;
             font-size: 1rem;
             font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
         }
+        #about {
+            color: #0F0;
+            line-height: 1.2;
+            font-size: 2rem;
+        }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/humanize-duration"></script>
 </head>
 <body>
-    <h1>About me:</h1>
-    <p>
-        My name is Damian. I like to command computers. They always fulfill my orders :)
-    </p>
-    
+    <h2>About me:</h2>
+<pre id="about">
+  {
+    name: "Damian",
+    age: {{ yearsOld }},
+    from: "Poland",
+    education: "Computer Science at University of Wrocław"
+  }
+</pre>
     <h2>Interests:</h2>
     <p>
-        My current interests are programming, atificial intelligence and blockchains.
+        I like new technologies and software development.
+        My current interests are UI programming and artificial intelligence.
     </p>
-
     <h2> Work:</h2>
-    <p>
+    <p id="work">
         I work as web developer.
-        <br />On backend I have experience with <strong>Ruby</strong> and <strong>Elixir</strong>. 
+        <br />On backend I have experience with <strong>Ruby on Rails</strong> and <strong>Elixir</strong>. 
         <br />On frontend side in <strong>Typescript</strong>, <strong>React</strong>, <strong>Redux</strong>, and <strong>MobX</strong>. 
-        <br />I also know some <strong>HTML</strong> and <strong>CSS</strong> which is hard to infer from seeing this page ;)
+        <br />I also know some <strong>HTML</strong> and <strong>CSS</strong>  ;)
     </p>
-
-    <!-- <h2>Used web tech:</h2>
-    <p>
-        <ul>
-            <li>Typescript</li>
-            <li>React + React Router</li>
-            <li>MobX</li>
-        </ul>
-    </p> -->
-
-    <!-- <h2>Favorite sites:</h2>
-    <p>
-        <ul>
-            <li><a href="https://news.ycombinator.com/">https://news.ycombinator.com/</a> - tech links aggregator</li>
-            <li>TODO</li>
-            <li></li>
-        </ul>
-    </p> -->
-
+    
+    <script>
+    var app = new Vue({
+        el: '#about',
+        data: {
+            yearsOld: '24 years',
+        }
+    })
+    setInterval(function(){
+        var age = Date.now() - new Date(1993, 11, 22);
+        app.yearsOld = humanizeDuration(age, { units: ['y', 'mo', 's'], conjunction: ' and ', round: true });
+    }, 1000);
+    </script>
 </body>
 </html>
