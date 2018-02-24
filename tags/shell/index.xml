@@ -18,7 +18,7 @@
       
       <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
       <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
-The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
+The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarrassed].
 And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
     </item>
     

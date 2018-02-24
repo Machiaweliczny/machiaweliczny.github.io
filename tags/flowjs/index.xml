@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flowjs on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/tags/flowjs/</link>
+    <description>Recent content in Flowjs on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Apr 2017 09:38:40 +0200</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/flowjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>babel plugin tcomb</title>
+      <link>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</link>
+      <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</guid>
+      <description>Recently I&amp;rsquo;ve found nice library to do dynamic type checking with flow syntax. It&amp;rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite useful for testing IO boundaries.</description>
+    </item>
+    
+  </channel>
+</rss>

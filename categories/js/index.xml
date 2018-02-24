@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/js/</link>
+    <description>Recent content in Js on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 00:26:25 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jscodeshift</title>
+      <link>http://machiaweliczny.github.io/post/jscodeshift/</link>
+      <pubDate>Fri, 09 Feb 2018 00:26:25 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/jscodeshift/</guid>
+      <description>If you need to do some bigger refactoring then I can recommend using jscodeshift which allows you to do AST-to-AST code conversion and then pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
+For prototyping there&amp;rsquo;s great website called https://astexplorer.net/ where you can prototype modifications. Remember to use ctrl+space after typing . for available API hints when using first time.
+You can see how to write scripts here - https://github.</description>
+    </item>
+    
+    <item>
+      <title>Hyperapp</title>
+      <link>http://machiaweliczny.github.io/post/hyperapp/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/hyperapp/</guid>
+      <description>There&amp;rsquo;s quite popular JS lib that&amp;rsquo;s 315 lines of code and has capabilities of react + redux in it. It&amp;rsquo;s called Hyperapp and you can view the code there https://github.com/hyperapp/hyperapp/blob/master/src/index.js. I need to investigate how actions part is done and maybe it&amp;rsquo;s viable solution if you care about minimal size and want something sane.</description>
+    </item>
+    
+    <item>
+      <title>Modern Frontend Explained</title>
+      <link>http://machiaweliczny.github.io/post/modern-frontend-explained/</link>
+      <pubDate>Thu, 08 Feb 2018 08:37:13 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/modern-frontend-explained/</guid>
+      <description>There&amp;rsquo;s cool series of articles at medium from Peter Jang explaining evolution of frontend approaches to JS, CSS and structuring applications. I highly recommend it for anyone starting with frontend.
+ modern CSS explained modern JS explained comparing frontend approaches  </description>
+    </item>
+    
+    <item>
+      <title>State of JS 2017</title>
+      <link>http://machiaweliczny.github.io/post/stateofjs2017/</link>
+      <pubDate>Sun, 21 Jan 2018 15:32:57 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/stateofjs2017/</guid>
+      <description>If you haven&amp;rsquo;t read yet it&amp;rsquo;s good to get through some JS ecosystem surveys like stateofjs or risingstars
+The tech I personally started using recently(after switching to frontend only role) is:
+ VS Code - I was using atom before but it felt a little sluggish, so after switching to Typescript I started using VS Code and I&amp;rsquo;m happier. Atom keybindings extension made transition painless. Would like to have code outline natively.</description>
+    </item>
+    
+    <item>
+      <title>VS Code Run Script on Selected Text</title>
+      <link>http://machiaweliczny.github.io/post/vs-code-run-script-on-selected-text/</link>
+      <pubDate>Sat, 06 Jan 2018 13:11:11 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/vs-code-run-script-on-selected-text/</guid>
+      <description>I was looking for ability to run some scripts on selected text on vs-code and couldn&amp;rsquo;t find native support for it.
+But I&amp;rsquo;ve found not so well know extension which does exactly that - https://marketplace.visualstudio.com/items?itemName=yhirose.FilterText When your script is available in shell you can easily run it on selected text in editor.</description>
+    </item>
+    
+    <item>
+      <title>VS Code</title>
+      <link>http://machiaweliczny.github.io/post/vscode/</link>
+      <pubDate>Sat, 06 Jan 2018 11:00:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/vscode/</guid>
+      <description>I just want to mention that recently I&amp;rsquo;ve switched fully to VS Code for Typescript development and it&amp;rsquo;s simply great. So if you haven&amp;rsquo;t tried it yet - I can totally recommend it.
+Just remember to click at everything in &amp;ldquo;Learn&amp;rdquo; in Welcome page as this is great introduction to interface.
+There are keymaps(bindings) for other popular editors, so you don&amp;rsquo;t have to learn new keybinding or configure them by yourself.</description>
+    </item>
+    
+    <item>
+      <title>Stackblitz</title>
+      <link>http://machiaweliczny.github.io/post/stackblitz/</link>
+      <pubDate>Sat, 06 Jan 2018 10:56:59 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/stackblitz/</guid>
+      <description>I have stumbled upon https://stackblitz.com/ ala JS fiddle online code editor which utilizes VS Code and let&amp;rsquo;s you easily share the results. Looks cool and they have designed some new package manager for it - https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403</description>
+    </item>
+    
+    <item>
+      <title>Migrating Angularjs to Webpack</title>
+      <link>http://machiaweliczny.github.io/post/migrating-angularjs-to-webpack/</link>
+      <pubDate>Sat, 06 Jan 2018 10:39:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/migrating-angularjs-to-webpack/</guid>
+      <description>Recently I had to work on Angularjs(1.X) codebase and I decided that it needed and update of build process to match modern standards and gain great tooling support that comes with it.
+It was using grunt and with the help of these two articles I successfully migrated to webpack:
+ https://medium.com/appifycanada/migrate-to-webpack-from-grunt-bower-legacy-build-system-344526f47873 https://medium.com/eventmobi/how-to-incrementally-switch-to-webpack-203a1b431f7a  As grunt requires files in alphabetical order you have to imitate this with webpack and the most important part of code is this:</description>
+    </item>
+    
+    <item>
+      <title>ParcelJs</title>
+      <link>http://machiaweliczny.github.io/post/parceljs/</link>
+      <pubDate>Sat, 06 Jan 2018 10:18:50 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/parceljs/</guid>
+      <description>Recently I tested parceljs - bundler advertised as zero config and it delivered.
+Actually I had to do one thing to make it work with typescript: npm i typescript
+You simply run it like this parcel index.html and use &amp;lt;script scr=&amp;quot;index.ts&amp;quot; /&amp;gt; inside.
+Quite good alternative to webpack for greenfield projects but for more complex/legacy projects I would stay with webpack.</description>
+    </item>
+    
+    <item>
+      <title>npm trends</title>
+      <link>http://machiaweliczny.github.io/post/npm-trends/</link>
+      <pubDate>Sat, 17 Jun 2017 14:22:42 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/npm-trends/</guid>
+      <description>When evaluating packages on NPM it&amp;rsquo;s good to check downloads stars and issues that package have and http://www.npmtrends.com/ does exactly that.</description>
+    </item>
+    
+    <item>
+      <title>babel plugin tcomb</title>
+      <link>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</link>
+      <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</guid>
+      <description>Recently I&amp;rsquo;ve found nice library to do dynamic type checking with flow syntax. It&amp;rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite useful for testing IO boundaries.</description>
+    </item>
+    
+    <item>
+      <title>Shorter way of defining reducers and testing them using updeep</title>
+      <link>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</link>
+      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</guid>
+      <description>While exploring discussion issues in redux I found a nice library called updeep and it&amp;rsquo;s use to define reducers.
+It looks like this:
+import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&amp;gt; currentState =&amp;gt; nextState startCompiling: () =&amp;gt; u({ compiling: true }), errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&amp;gt; u({ running: () =&amp;gt; app, compiling: false }), stopRunning: () =&amp;gt; u({ running: false }), discardCompileError: () =&amp;gt; u({ compileError: null }), // .</description>
+    </item>
+    
+  </channel>
+</rss>

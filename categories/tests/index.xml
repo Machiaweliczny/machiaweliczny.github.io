@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/tests/</link>
+    <description>Recent content in Tests on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Mar 2017 19:11:08 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/tests/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shorter way of defining reducers and testing them using updeep</title>
+      <link>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</link>
+      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</guid>
+      <description>While exploring discussion issues in redux I found a nice library called updeep and it&amp;rsquo;s use to define reducers.
+It looks like this:
+import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&amp;gt; currentState =&amp;gt; nextState startCompiling: () =&amp;gt; u({ compiling: true }), errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&amp;gt; u({ running: () =&amp;gt; app, compiling: false }), stopRunning: () =&amp;gt; u({ running: false }), discardCompileError: () =&amp;gt; u({ compileError: null }), // .</description>
+    </item>
+    
+  </channel>
+</rss>

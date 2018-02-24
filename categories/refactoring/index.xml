@@ -17,8 +17,8 @@
       <pubDate>Fri, 09 Feb 2018 00:26:25 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/jscodeshift/</guid>
-      <description>If you need to do some bigger refactoring then I can recommend using Jscodeshift which allows you to do AST-to-AST code conversion and pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
-For prototing there&amp;rsquo;s great website called https://astexplorer.net/ where you can test prototype modifications. Remember to use ctrl+space after typing . for avaiable API hints when using first time.
+      <description>If you need to do some bigger refactoring then I can recommend using jscodeshift which allows you to do AST-to-AST code conversion and then pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
+For prototyping there&amp;rsquo;s great website called https://astexplorer.net/ where you can prototype modifications. Remember to use ctrl+space after typing . for available API hints when using first time.
 You can see how to write scripts here - https://github.</description>
     </item>
     

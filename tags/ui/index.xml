@@ -6,20 +6,18 @@
     <description>Recent content in Ui on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 19:11:08 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2018 15:47:31 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/tags/ui/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shorter way of defining reducers and testing them using updeep</title>
-      <link>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      <title>Bitscr</title>
+      <link>http://machiaweliczny.github.io/post/bitscr/</link>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
       
-      <guid>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</guid>
-      <description>While exploring discussion issues in redux I found a nice library called updeep and it&amp;rsquo;s use to define reducers.
-It looks like this:
-import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&amp;gt; currentState =&amp;gt; nextState startCompiling: () =&amp;gt; u({ compiling: true }), errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&amp;gt; u({ running: () =&amp;gt; app, compiling: false }), stopRunning: () =&amp;gt; u({ running: false }), discardCompileError: () =&amp;gt; u({ compileError: null }), // .</description>
+      <guid>http://machiaweliczny.github.io/post/bitscr/</guid>
+      <description>Today I stumbled upon https://bitsrc.io/ - seems like nice way to share UI components code across projects/teams. It allows creation of playlists of components which you handle through git repose but there&amp;rsquo;s helper CLI provided.</description>
     </item>
     
   </channel>

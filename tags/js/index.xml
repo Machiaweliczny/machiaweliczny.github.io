@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/tags/js/</link>
+    <description>Recent content in Js on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 15:47:31 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitscr</title>
+      <link>http://machiaweliczny.github.io/post/bitscr/</link>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/bitscr/</guid>
+      <description>Today I stumbled upon https://bitsrc.io/ - seems like nice way to share UI components code across projects/teams. It allows creation of playlists of components which you handle through git repose but there&amp;rsquo;s helper CLI provided.</description>
+    </item>
+    
+  </channel>
+</rss>

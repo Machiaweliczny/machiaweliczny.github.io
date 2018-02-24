@@ -6,10 +6,28 @@
     <description>Recent content in React on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 21:21:28 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2018 10:42:09 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>React Playground - Preview React in VS Code</title>
+      <link>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</link>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</guid>
+      <description>If you need to preview some React components from within VS code then https://marketplace.visualstudio.com/items?itemName=wmira.react-playground-vscode might help. Works only with .jsx files though. I would prefer it to use ParcelJS for example and handle .tsx files also.</description>
+    </item>
+    
+    <item>
+      <title>Hyperapp</title>
+      <link>http://machiaweliczny.github.io/post/hyperapp/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/hyperapp/</guid>
+      <description>There&amp;rsquo;s quite popular JS lib that&amp;rsquo;s 315 lines of code and has capabilities of react + redux in it. It&amp;rsquo;s called Hyperapp and you can view the code there https://github.com/hyperapp/hyperapp/blob/master/src/index.js. I need to investigate how actions part is done and maybe it&amp;rsquo;s viable solution if you care about minimal size and want something sane.</description>
+    </item>
     
     <item>
       <title>rendering resource in react</title>
@@ -27,16 +45,7 @@ type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Elem
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
-    </item>
-    
-    <item>
-      <title>react-komposer</title>
-      <link>http://machiaweliczny.github.io/post/react-komposer-post/</link>
-      <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/react-komposer-post/</guid>
-      <description>Recently I found quite nice HoC abstracting async data delivery for component. It&amp;rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.</description>
+      <description>When you have too many dispatches when using redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
   </channel>

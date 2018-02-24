@@ -17,7 +17,7 @@
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
+      <description>When you have too many dispatches when using redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
   </channel>

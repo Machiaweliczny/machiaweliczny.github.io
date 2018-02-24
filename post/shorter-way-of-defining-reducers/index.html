@@ -8,7 +8,7 @@
     <meta name="description" content="While exploring discussion issues in redux I found a nice library called updeep and it&rsquo;s use to define reducers.
 It looks like this:
 import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&gt; currentState =&gt; nextState startCompiling: () =&gt; u({ compiling: true }), errorCompiling: ({ error }) =&gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&gt; u({ running: () =&gt; app, compiling: false }), stopRunning: () =&gt; u({ running: false }), discardCompileError: () =&gt; u({ compileError: null }), // .">
-    <meta name="keywords" content="redux, javascript, reducers, tests, ui">
+    <meta name="keywords" content="redux">
     
     
     
@@ -202,7 +202,7 @@ import u from &#39;updeep&#39; export const reducer = createReducer({ // [action
 
 
 
-<meta itemprop="keywords" content="redux,javascript,reducers,tests,ui," />
+<meta itemprop="keywords" content="redux," />
 
     <header>
       <h1 itemprop="headline">Shorter way of defining reducers and testing them using updeep</h1>
@@ -300,10 +300,10 @@ expect(u(expectedState, initialState)).toEqual(redux.getState())
     24 Mar, 2017
   </time>
   
-    in <span itemprop="articleSection"><a href="/categories//"></a></span>
+    in <span itemprop="articleSection"><a href="/categories/js/">js</a>, <a href="/categories/tests/">tests</a> and <a href="/categories/ui/">ui</a></span>
   
   
-    and tagged <a href="/tags/javascript/">javascript</a>, <a href="/tags/reducers/">reducers</a>, <a href="/tags/redux/">redux</a>, <a href="/tags/tests/">tests</a> and <a href="/tags/ui/">ui</a>
+    and tagged <a href="/tags/redux/">redux</a>
   
   using <span itemprop="wordCount">233</span> words.
 </p>

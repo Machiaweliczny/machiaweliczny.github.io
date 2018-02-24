@@ -6,10 +6,19 @@
     <description>Recent content in Git on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 15:42:58 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2018 13:16:26 +0100</lastBuildDate>
     
 	<atom:link href="http://machiaweliczny.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gitup - best free git GUI for mac</title>
+      <link>http://machiaweliczny.github.io/post/gitup/</link>
+      <pubDate>Sat, 06 Jan 2018 13:16:26 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/gitup/</guid>
+      <description>Hey I wanna share great free git GUI for mac which I like to use and it&amp;rsquo;s not so well known - http://gitup.co/</description>
+    </item>
     
     <item>
       <title>Small git tips</title>
@@ -18,7 +27,7 @@
       
       <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
       <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
-The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
+The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarrassed].
 And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
     </item>
     

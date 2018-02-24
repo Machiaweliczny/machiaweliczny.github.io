@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ui on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</title>
+    <link>http://machiaweliczny.github.io/categories/ui/</link>
+    <description>Recent content in Ui on Machiaweliczny s0ftwar3 d3v3l0pm3nt discoveries ;)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 10:42:09 +0100</lastBuildDate>
+    
+	<atom:link href="http://machiaweliczny.github.io/categories/ui/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Playground - Preview React in VS Code</title>
+      <link>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</link>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/react-playground-preview-vs-code/</guid>
+      <description>If you need to preview some React components from within VS code then https://marketplace.visualstudio.com/items?itemName=wmira.react-playground-vscode might help. Works only with .jsx files though. I would prefer it to use ParcelJS for example and handle .tsx files also.</description>
+    </item>
+    
+    <item>
+      <title>Hyperapp</title>
+      <link>http://machiaweliczny.github.io/post/hyperapp/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/hyperapp/</guid>
+      <description>There&amp;rsquo;s quite popular JS lib that&amp;rsquo;s 315 lines of code and has capabilities of react + redux in it. It&amp;rsquo;s called Hyperapp and you can view the code there https://github.com/hyperapp/hyperapp/blob/master/src/index.js. I need to investigate how actions part is done and maybe it&amp;rsquo;s viable solution if you care about minimal size and want something sane.</description>
+    </item>
+    
+    <item>
+      <title>Modern Frontend Explained</title>
+      <link>http://machiaweliczny.github.io/post/modern-frontend-explained/</link>
+      <pubDate>Thu, 08 Feb 2018 08:37:13 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/modern-frontend-explained/</guid>
+      <description>There&amp;rsquo;s cool series of articles at medium from Peter Jang explaining evolution of frontend approaches to JS, CSS and structuring applications. I highly recommend it for anyone starting with frontend.
+ modern CSS explained modern JS explained comparing frontend approaches  </description>
+    </item>
+    
+    <item>
+      <title>Shorter way of defining reducers and testing them using updeep</title>
+      <link>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</link>
+      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/post/shorter-way-of-defining-reducers/</guid>
+      <description>While exploring discussion issues in redux I found a nice library called updeep and it&amp;rsquo;s use to define reducers.
+It looks like this:
+import u from &#39;updeep&#39; export const reducer = createReducer({ // [action name]: action =&amp;gt; currentState =&amp;gt; nextState startCompiling: () =&amp;gt; u({ compiling: true }), errorCompiling: ({ error }) =&amp;gt; u({ compiling: false, compileError: error }), startRunning: ({ app }) =&amp;gt; u({ running: () =&amp;gt; app, compiling: false }), stopRunning: () =&amp;gt; u({ running: false }), discardCompileError: () =&amp;gt; u({ compileError: null }), // .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,20 +21,47 @@
     </item>
     
     <item>
+      <title>Angularjs</title>
+      <link>http://machiaweliczny.github.io/tags/angularjs/</link>
+      <pubDate>Sat, 06 Jan 2018 10:39:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flowjs</title>
+      <link>http://machiaweliczny.github.io/tags/flowjs/</link>
+      <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/flowjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>http://machiaweliczny.github.io/tags/git/</link>
-      <pubDate>Sun, 18 Jun 2017 15:42:58 +0200</pubDate>
+      <pubDate>Sat, 06 Jan 2018 13:16:26 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Javascript</title>
-      <link>http://machiaweliczny.github.io/tags/javascript/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      <title>Js</title>
+      <link>http://machiaweliczny.github.io/tags/js/</link>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
       
-      <guid>http://machiaweliczny.github.io/tags/javascript/</guid>
+      <guid>http://machiaweliczny.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://machiaweliczny.github.io/tags/mac/</link>
+      <pubDate>Sat, 06 Jan 2018 13:16:26 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/mac/</guid>
       <description></description>
     </item>
     
@@ -59,34 +86,16 @@
     <item>
       <title>React</title>
       <link>http://machiaweliczny.github.io/tags/react/</link>
-      <pubDate>Thu, 22 Jun 2017 21:21:28 +0200</pubDate>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/tags/react/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Readux</title>
-      <link>http://machiaweliczny.github.io/tags/readux/</link>
-      <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/tags/readux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reducers</title>
-      <link>http://machiaweliczny.github.io/tags/reducers/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/tags/reducers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Redux</title>
       <link>http://machiaweliczny.github.io/tags/redux/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/tags/redux/</guid>
       <description></description>
@@ -111,29 +120,47 @@
     </item>
     
     <item>
-      <title>Tests</title>
-      <link>http://machiaweliczny.github.io/tags/tests/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/tags/tests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typescript</title>
-      <link>http://machiaweliczny.github.io/tags/typescript/</link>
+      <title>Ts</title>
+      <link>http://machiaweliczny.github.io/tags/ts/</link>
       <pubDate>Mon, 19 Jun 2017 11:46:16 +0200</pubDate>
       
-      <guid>http://machiaweliczny.github.io/tags/typescript/</guid>
+      <guid>http://machiaweliczny.github.io/tags/ts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ui</title>
       <link>http://machiaweliczny.github.io/tags/ui/</link>
-      <pubDate>Fri, 24 Mar 2017 19:11:08 +0100</pubDate>
+      <pubDate>Thu, 08 Feb 2018 15:47:31 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/tags/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vdom</title>
+      <link>http://machiaweliczny.github.io/tags/vdom/</link>
+      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/vdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>http://machiaweliczny.github.io/tags/vscode/</link>
+      <pubDate>Thu, 08 Feb 2018 10:42:09 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>http://machiaweliczny.github.io/tags/webpack/</link>
+      <pubDate>Sat, 06 Jan 2018 10:39:55 +0100</pubDate>
+      
+      <guid>http://machiaweliczny.github.io/tags/webpack/</guid>
       <description></description>
     </item>
     

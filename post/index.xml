@@ -17,8 +17,8 @@
       <pubDate>Mon, 12 Feb 2018 18:31:59 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-vs-mobx/</guid>
-      <description>I found great thread comparing and explaining reasoning behind usage of Redux and MobX so I higly recommend it if you want to know how these two relate and what are the pros and cons.
-BTW reading &amp;ldquo;disussion&amp;rdquo; or &amp;ldquo;question&amp;rdquo; threads on github is great way to expand knowledge about certain libraries/solution so I highly recommend it.
+      <description>I found great thread comparing and explaining reasoning behind usage of Redux and MobX so I highly recommend it if you want to know how these two relate and what are the pros and cons.
+BTW reading &amp;ldquo;discussion&amp;rdquo; or &amp;ldquo;question&amp;rdquo; threads on github is great way to expand knowledge about certain libraries/solution so I highly recommend it.
 Here are for example &amp;ldquo;question&amp;rdquo; threads sorted by most comments for MobX</description>
     </item>
     
@@ -28,8 +28,8 @@ Here are for example &amp;ldquo;question&amp;rdquo; threads sorted by most comme
       <pubDate>Fri, 09 Feb 2018 00:26:25 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/jscodeshift/</guid>
-      <description>If you need to do some bigger refactoring then I can recommend using Jscodeshift which allows you to do AST-to-AST code conversion and pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
-For prototing there&amp;rsquo;s great website called https://astexplorer.net/ where you can test prototype modifications. Remember to use ctrl+space after typing . for avaiable API hints when using first time.
+      <description>If you need to do some bigger refactoring then I can recommend using jscodeshift which allows you to do AST-to-AST code conversion and then pretty prints it. You can read more about it here - https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb
+For prototyping there&amp;rsquo;s great website called https://astexplorer.net/ where you can prototype modifications. Remember to use ctrl+space after typing . for available API hints when using first time.
 You can see how to write scripts here - https://github.</description>
     </item>
     
@@ -66,7 +66,7 @@ You can see how to write scripts here - https://github.</description>
       <pubDate>Thu, 08 Feb 2018 08:37:13 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/modern-frontend-explained/</guid>
-      <description>There&amp;rsquo;s cool series of articles at medium from Peter Jang explaining evolution of frontend approaches to JS, CSS and structuring applicaitons. I highly recommend it for anyone starting with frontend.
+      <description>There&amp;rsquo;s cool series of articles at medium from Peter Jang explaining evolution of frontend approaches to JS, CSS and structuring applications. I highly recommend it for anyone starting with frontend.
  modern CSS explained modern JS explained comparing frontend approaches  </description>
     </item>
     
@@ -77,8 +77,8 @@ You can see how to write scripts here - https://github.</description>
       
       <guid>http://machiaweliczny.github.io/post/stateofjs2017/</guid>
       <description>If you haven&amp;rsquo;t read yet it&amp;rsquo;s good to get through some JS ecosystem surveys like stateofjs or risingstars
-The tech I presonally started using recently(after switching to frontend only role) is:
- VS Code - I was using atom before but it felt a little slugish, so after switching to Typescript I started using VS Code and I&amp;rsquo;m happier. Atom keybindings extension made transition painless. Would like to have code outline natively.</description>
+The tech I personally started using recently(after switching to frontend only role) is:
+ VS Code - I was using atom before but it felt a little sluggish, so after switching to Typescript I started using VS Code and I&amp;rsquo;m happier. Atom keybindings extension made transition painless. Would like to have code outline natively.</description>
     </item>
     
     <item>
@@ -96,7 +96,7 @@ The tech I presonally started using recently(after switching to frontend only ro
       <pubDate>Sat, 06 Jan 2018 13:11:11 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/vs-code-run-script-on-selected-text/</guid>
-      <description>I was looking for ability to run some scripts on selected text on vs-code and couln&amp;rsquo;t find native support for it.
+      <description>I was looking for ability to run some scripts on selected text on vs-code and couldn&amp;rsquo;t find native support for it.
 But I&amp;rsquo;ve found not so well know extension which does exactly that - https://marketplace.visualstudio.com/items?itemName=yhirose.FilterText When your script is available in shell you can easily run it on selected text in editor.</description>
     </item>
     
@@ -106,8 +106,8 @@ But I&amp;rsquo;ve found not so well know extension which does exactly that - ht
       <pubDate>Sat, 06 Jan 2018 11:00:55 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/vscode/</guid>
-      <description>I just want to mention that recently I&amp;rsquo;ve switched fully to VS Code for Typescript development and it&amp;rsquo;s simply great. So if you haven&amp;rsquo;t tried it yet - I can totaly recommend it.
-Just remember to click at everthing in &amp;ldquo;Learn&amp;rdquo; in Welcome page as this is great introduction to interface.
+      <description>I just want to mention that recently I&amp;rsquo;ve switched fully to VS Code for Typescript development and it&amp;rsquo;s simply great. So if you haven&amp;rsquo;t tried it yet - I can totally recommend it.
+Just remember to click at everything in &amp;ldquo;Learn&amp;rdquo; in Welcome page as this is great introduction to interface.
 There are keymaps(bindings) for other popular editors, so you don&amp;rsquo;t have to learn new keybinding or configure them by yourself.</description>
     </item>
     
@@ -117,7 +117,7 @@ There are keymaps(bindings) for other popular editors, so you don&amp;rsquo;t ha
       <pubDate>Sat, 06 Jan 2018 10:56:59 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/stackblitz/</guid>
-      <description>I have stumbled upon https://stackblitz.com/ ala JS fiddle online code editor which utilises VS Code and let&amp;rsquo;s you easily share the results. Looks cool and they have designed some new package manager for it - https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403</description>
+      <description>I have stumbled upon https://stackblitz.com/ ala JS fiddle online code editor which utilizes VS Code and let&amp;rsquo;s you easily share the results. Looks cool and they have designed some new package manager for it - https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403</description>
     </item>
     
     <item>
@@ -126,8 +126,8 @@ There are keymaps(bindings) for other popular editors, so you don&amp;rsquo;t ha
       <pubDate>Sat, 06 Jan 2018 10:39:55 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/migrating-angularjs-to-webpack/</guid>
-      <description>Recently I had to work on Angularjs(1.X) codebase and I dedided that it needed and update of build process to match modern standards and gain great tooling support that comes with it.
-It was using grunt and with the help of these two articles I successfuly migrated to webpack:
+      <description>Recently I had to work on Angularjs(1.X) codebase and I decided that it needed and update of build process to match modern standards and gain great tooling support that comes with it.
+It was using grunt and with the help of these two articles I successfully migrated to webpack:
  https://medium.com/appifycanada/migrate-to-webpack-from-grunt-bower-legacy-build-system-344526f47873 https://medium.com/eventmobi/how-to-incrementally-switch-to-webpack-203a1b431f7a  As grunt requires files in alphabetical order you have to imitate this with webpack and the most important part of code is this:</description>
     </item>
     
@@ -159,7 +159,7 @@ type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Elem
       <pubDate>Mon, 19 Jun 2017 17:19:04 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-batched-subscribe/</guid>
-      <description>When you have too many dispatches when usign redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
+      <description>When you have too many dispatches when using redux performance of rendering might slow down. There&amp;rsquo;s in quite nice store enhancer - https://github.com/tappleby/redux-batched-subscribe that allows to easy debounce notify to improve perf.</description>
     </item>
     
     <item>
@@ -168,8 +168,8 @@ type ResourceDisplay = {| whenError: Element&amp;lt;*&amp;gt;, whenLoading: Elem
       <pubDate>Mon, 19 Jun 2017 11:56:55 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/ruby-reality/</guid>
-      <description>Today collegue pointed me to cool gem which helps retrieve information from wikipedia: https://github.com/molybdenum-99/reality
-This is quite neat and may be usefull for some scripting task.</description>
+      <description>Today colleague pointed me to cool gem which helps retrieve information from wikipedia: https://github.com/molybdenum-99/reality
+This is quite neat and may be useful for some scripting task.</description>
     </item>
     
     <item>
@@ -189,7 +189,7 @@ I&amp;rsquo;ve found it in this thread - https://github.com/Microsoft/TypeScript
       
       <guid>http://machiaweliczny.github.io/post/git-tip/</guid>
       <description>The cool think I didn&amp;rsquo;t knew is that when you type git checkout - it returns to previous branch.
-The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarased].
+The same applies to shell cd - returns to previous catalog, so you don&amp;rsquo;t have to use pushd path &amp;amp;&amp;amp; popd Also the default for cd is cd ~ [embarrassed].
 And when we are talking about cd - I recommend this great utility tool - https://github.com/rupa/z - it&amp;rsquo;s &amp;ldquo;fuzzy finder&amp;rdquo; for cd</description>
     </item>
     
@@ -203,21 +203,12 @@ And when we are talking about cd - I recommend this great utility tool - https:/
     </item>
     
     <item>
-      <title>react-komposer</title>
-      <link>http://machiaweliczny.github.io/post/react-komposer-post/</link>
-      <pubDate>Sat, 17 Jun 2017 14:18:46 +0200</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/react-komposer-post/</guid>
-      <description>Recently I found quite nice HoC abstracting async data delivery for component. It&amp;rsquo;s called https://github.com/arunoda/react-komposer and I recommend you check it out as it provides clean API for defining async depencencies.</description>
-    </item>
-    
-    <item>
       <title>babel plugin tcomb</title>
       <link>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</link>
       <pubDate>Tue, 04 Apr 2017 09:38:40 +0200</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/babel-plugin-tcomb/</guid>
-      <description>Recently I&amp;rsquo;ve found nice library to do dynamic typechecking with flow syntax. It&amp;rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite usefull for testing IO boundaries.</description>
+      <description>Recently I&amp;rsquo;ve found nice library to do dynamic type checking with flow syntax. It&amp;rsquo;s called https://github.com/gcanti/babel-plugin-tcomb It&amp;rsquo;s just babel plugin which parses flow types and converts them into dynamic asserts. Quite useful for testing IO boundaries.</description>
     </item>
     
     <item>
@@ -227,7 +218,7 @@ And when we are talking about cd - I recommend this great utility tool - https:/
       
       <guid>http://machiaweliczny.github.io/post/3blue1brown_math_videos/</guid>
       <description>I stumbled recently on quite nice math visualization videos by 3blue1brown.
-He&amp;rsquo;s most pupular because of &amp;ldquo;essence of linear algebra&amp;rdquo; playlist but I enjoyed riddles the most. I agree with him that in education lack of visualization can make concepts too abstract and hard to digest, so I would like to spread the word about great channel.
+He&amp;rsquo;s most popular because of &amp;ldquo;essence of linear algebra&amp;rdquo; playlist but I enjoyed riddles the most. I agree with him that in education lack of visualization can make concepts too abstract and hard to digest, so I would like to spread the word about great channel.
 And if we are talking about linear algebra:
 Another quite good course on linear algebra in on Khan Academy (it might be a little too slow paced but it&amp;rsquo;s good).</description>
     </item>

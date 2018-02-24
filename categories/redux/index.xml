@@ -17,18 +17,9 @@
       <pubDate>Mon, 12 Feb 2018 18:31:59 +0100</pubDate>
       
       <guid>http://machiaweliczny.github.io/post/redux-vs-mobx/</guid>
-      <description>I found great thread comparing and explaining reasoning behind usage of Redux and MobX so I higly recommend it if you want to know how these two relate and what are the pros and cons.
-BTW reading &amp;ldquo;disussion&amp;rdquo; or &amp;ldquo;question&amp;rdquo; threads on github is great way to expand knowledge about certain libraries/solution so I highly recommend it.
+      <description>I found great thread comparing and explaining reasoning behind usage of Redux and MobX so I highly recommend it if you want to know how these two relate and what are the pros and cons.
+BTW reading &amp;ldquo;discussion&amp;rdquo; or &amp;ldquo;question&amp;rdquo; threads on github is great way to expand knowledge about certain libraries/solution so I highly recommend it.
 Here are for example &amp;ldquo;question&amp;rdquo; threads sorted by most comments for MobX</description>
-    </item>
-    
-    <item>
-      <title>Hyperapp</title>
-      <link>http://machiaweliczny.github.io/post/hyperapp/</link>
-      <pubDate>Thu, 08 Feb 2018 10:14:29 +0100</pubDate>
-      
-      <guid>http://machiaweliczny.github.io/post/hyperapp/</guid>
-      <description>There&amp;rsquo;s quite popular JS lib that&amp;rsquo;s 315 lines of code and has capabilities of react + redux in it. It&amp;rsquo;s called Hyperapp and you can view the code there https://github.com/hyperapp/hyperapp/blob/master/src/index.js. I need to investigate how actions part is done and maybe it&amp;rsquo;s viable solution if you care about minimal size and want something sane.</description>
     </item>
     
   </channel>
